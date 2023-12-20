@@ -2,6 +2,8 @@
 
 //invoke express like a function 
 const express = require('express')
+const cors = require('cors'); //WONKY
+const knex = require('./aerobites-server/db/knexfile'); //WONKY
 const app = express();
 // Import the airportsData from the external file
 const airportsData = require('./airportData')
