@@ -26,8 +26,10 @@ app.use(cors())
 //server-side script where an API endpoint for retrieving airport data is defined. 
 //Knex is being used as a query builder to interact with the database. Knex is selecting all columns from airport data. 
 // this query is retrieving data from that specific table. Migrations in Knex are scripts that help manage database schema changes, including creating and altering tables. 
+
+// goal is to display only the airport names on the page load, you should retrieve data specifically from the 'airports' table. In your case, you have an endpoint that fetches data from the 'airports' table:
 app.get('/airports', async(request, response) => {
-    const airportData = await knex.select().from('airportData')
+    const airportData = await knex.select().from('airports')
     response.status(200).json(airportData)
 })
 //above:
