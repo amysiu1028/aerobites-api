@@ -1,89 +1,52 @@
+//setting up express middleware layer for Node.js to build web app and APIs. Allows a  way to handle HTTP requests and manage routes, perform various tasks.
 
-
-//invoke express like a function 
+// imports the Express.js - allowing you to create a web server and define route
 const express = require('express')
-const app = express();
-// Import the airportsData from the external file
-const airportsData = require('./airportData')
 
-//IF WE WANT TO POST (additional things included below)
-////POST: middleman for posts: You need this line so that your app parses the request body to json by default:
-// app.use(express.json())
-app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*'); // '*' allows access from any origin
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
-});
+// Creates an instance of the Express application. app is the main object you use to configure and define your web server.
+const app = express()
 
-//tell where express will run:
-app.set('port', process.env.PORT || 3000);
+// Imports the CORS middleware. CORS is a security feature implemented by web browsers to control access to resources on a web page from different origins. 
+//helps handle CORS-related headers in HTTP requests.
+const cors = require('cors')
 
-//app.local === global variable
-app.locals.title = 'Airport Data';
+//Imports the Knex.js instance. 
+const knex = require('./knex')
+
+//sets express application/middleman port to 8080, this is where it'll listen for incoming requests on port 8080
+app.set('port',8080)
 
 
+//app.use adds a middleware fx to express.js application
+app.use(cors())
 
-// ... rest of your routes ...
+///api/v1/airports - should change to v1?
 
+//CRUD methods 
+//server-side script where an API endpoint for retrieving airport data is defined. 
+//Knex is being used as a query builder to interact with the database. Knex is selecting all columns from airport data. 
+// this query is retrieving data from that specific table. Migrations in Knex are scripts that help manage database schema changes, including creating and altering tables. 
+app.get('/airports', async(request, response) => {
+    const airportData = await knex.select().from('airportData')
+    response.status(200).json(airportData)
+})
+//above:
+//airportData is the name of the table we will be migrating (using knex to migrate and create the table over in postgres) to our db.
+//knex.js is the file you'll be migrating data 
 
+//when you use knex.select().from('airportData'), it implies that there should be a table named 'airportData' in your PostgreSQL database.
+//in your PostgreSQL database, you need to have a table named 'airportData' that contains the data you want to query. The structure of this table should match the expected schema, and it should have been created using Knex.js migrations or another method.
+//so what you would have in your Knex.js migration file (e.g., 20220101000000_create_airport_data_table.js)
 
+//The app.listen function in Express.js is used to bind and listen for connections on the specified host and port.
+app.listen(8080, () => {
+    console.log('server has started on port 8080')
+})
 
-//first endpt - homepage - where we can get the data for all the airports
-//that display the data for drop down menu
-app.get('/', (request, response) => {
-    //this is the backend
-    console.log(`Someone hit the endpoint at ${Date.now()}`)
-    
-    //this is what shows on the front end
-    response.send(airportsData);
-});
+//cors info:
+// CORS (Cross-Origin Resource Sharing) is a mechanism that allows a server to specify who can access its resources.
 
-// // 2nd endpt - for the specific airport details? I think! like /api/v1/:airports or based on :id?
-// app.get('/api/v1/airports', (request, response) => {
-    //     const pets = app.locals.airports
-    //     //send a response, this is context type expression
-    //     //saying hey, whoever is hitting my api, we're giving this
-    //     response.json({ airports })
-    
-    //     console.log("request.params:",request.params) //see it in the terminal:request.params: { id: '3' } ...reaches in to dynamic url, to use those 
-    //     // const { id } = request.params; //can do this to replace, request.params.id to id in line below
-    
-    //     //bc the url is a string, the numbers should be strings... can stringify (below) or change it in the data
-    //     const pet = app.locals.airports.find(airport => airport.id === request.params.id);
-    
-    //   //if you want to send the status code, do sendStatus
-    // //if just sending raw error with no body: just send status
-    //     return pet ? 
-    //       response.status(200).json(pet)
-    //       : response.sendStatus(404)
-    //   })
-    
-    app.listen(app.get('port'), () => {
-        console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
-    });
-    
-//IF WE WANT TO USE POST:
+//in absence of cors,  default behavior of web browsers to prevent cross-origin requests as a security measure.
+//-  web browsers restrict web pages from making requests to domains different from the one that served the web page.
 
-
-// //POST:
-// app.post('api/v1/pets', (request, response) => {
-//     //uu ids - there are libraries/packages - university of ids
-//     //you need a true hash value: https://www.uuidgenerator.net/ 
-//     const id = Date.now()
-//     const { name, type } = request.body //destructure
-  
-//     //same thing as above!
-//     //if you want to work through kayla destructuring - good practice
-//     // const name = request.body.name
-//     // const type = request.body.type
-  
-//     // console.log("request.body",request.body)
-//     console.log(app.locals.pets)
-//     app.locals.pets.push({ id, name, type})
-//     //successful post, you get a 201 or an object
-//     response.send(201).json({ id, name, type})
-//   })
-  
-//   app.listen(app.get('port'), () => {
-//     console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
-//   });gi
+//CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers to control which web pages are allowed to access resources (like data) on a different domain. It's designed to prevent malicious websites from making unauthorized requests on behalf of a user. When you configure CORS, you specify which domains are allowed to access the resources, and you can control things like allowed HTTP methods and headers.
