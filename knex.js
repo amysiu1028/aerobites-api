@@ -6,10 +6,12 @@ const knex = require('knex')
 const config = require('./knexfile')
 
 //Specifies the environment for which you want to load the configuration. In this case, it's set to 'development'. This is used to select the appropriate configuration settings from the knexfile
-const environment = 'development'
+// const environment = 'development'
 
 //Calls the config function with the specified environment to retrieve the configuration settings for that environment.
-const knexConfig = config(environment)
+// Use square brackets to access the environment-specific configuration (bc environment is a variable containing the environment name (e.g., 'development').
+
+const knexConfig = config['development']
 
 //: Exports a Knex.js instance configured with the settings from knexConfig. This can be used throughout app to interact with the database
 module.exports = knex(knexConfig)

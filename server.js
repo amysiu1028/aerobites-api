@@ -1,3 +1,8 @@
+//EXPRESS:
+// Express.js application, you've set up a server that listens on localhost:8080. This server acts as the backend for your application, handling incoming HTTP requests and providing responses. 
+//knex is a query builder where you can query execute/ask for/retreive specific data to be displayed. 
+
+
 //setting up express middleware layer for Node.js to build web app and APIs. Allows a  way to handle HTTP requests and manage routes, perform various tasks.
 
 // imports the Express.js - allowing you to create a web server and define route
@@ -22,15 +27,24 @@ app.use(cors())
 
 ///api/v1/airports - should change to v1?
 
-//CRUD methods 
+//CRUD methods all happening at these endpts?
 //server-side script where an API endpoint for retrieving airport data is defined. 
 //Knex is being used as a query builder to interact with the database. Knex is selecting all columns from airport data. 
 // this query is retrieving data from that specific table. Migrations in Knex are scripts that help manage database schema changes, including creating and altering tables. 
 
-// goal is to display only the airport names on the page load, you should retrieve data specifically from the 'airports' table. In your case, you have an endpoint that fetches data from the 'airports' table:
-app.get('/airports', async(request, response) => {
+//setting root path - home page endpt
+app.get('/', async(request, response) => {
+    // response.send('Hello, this is the root path!');
     const airportData = await knex.select().from('airports')
     response.status(200).json(airportData)
+  })
+
+// goal is to display only the airport names on the page load, you should retrieve data specifically from the 'airports' table. In your case, you have an endpoint that fetches data from the 'airports' table:
+//
+app.get('/airports', async(request, response) => {
+    response.send('This is the airport details page')
+    // const airportData = await knex.select().from('airports')
+    // response.status(200).json(airportData)
 })
 //above:
 //airportData is the name of the table we will be migrating (using knex to migrate and create the table over in postgres) to our db.
@@ -51,4 +65,6 @@ app.listen(8080, () => {
 //in absence of cors,  default behavior of web browsers to prevent cross-origin requests as a security measure.
 //-  web browsers restrict web pages from making requests to domains different from the one that served the web page.
 
-//CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers to control which web pages are allowed to access resources (like data) on a different domain. It's designed to prevent malicious websites from making unauthorized requests on behalf of a user. When you configure CORS, you specify which domains are allowed to access the resources, and you can control things like allowed HTTP methods and headers.
+//CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers to control which web pages are allowed to access resources (like data) on a different domain. It's designed to prevent malicious websites from making unauthorized requests on behalf of a user. When you configure CORS, you specify which domains are allowed to access the resources, anhd you can control things like allowed HTTP methods and headers.
+
+

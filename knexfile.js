@@ -12,15 +12,23 @@ module.exports = {
   development: {
     //uses PostgreSQL client 
     client: 'pg',
+    connection: 'postgres://localhost/airport',
+    migrations: {
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds'
+    },
     //connection object specifies conxn details
-    connection: {
-      // host: 'localhost', //may not need
-      port: 5432,
-      user: 'postgres',
-      password: 'postgres',
-      database: 'airports'
-      //security reasons: user and pw in conxn object used for authentication when connection to a PostgreSQL
-    }
+    // connection: {
+    //   // host: 'localhost', //may not need
+    //   port: 5432,
+    //   // user: 'postgres',
+    //   // password: 'postgres',
+    //   database: 'airports'
+    //   //security reasons: user and pw in conxn object used for authentication when connection to a PostgreSQL
+    // },
+    useNullAsDefault: true
   },
 
   //condfigures production env 

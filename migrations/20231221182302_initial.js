@@ -1,3 +1,4 @@
+
 //migrations = version controls of our database 
 //They are single, timestamped files that each represent a change to your database schema. 
 
@@ -22,16 +23,17 @@ exports.up = function(knex) {
         //The .defaultTo(false) sets a default value of false for the 'isFavorite' column, 
         table.boolean('isFavorite').defaultTo(false);
         //chained with .then, indicate that after the airports table is created, the next set of operations should be performed.
-        table.timestamp(true,true); //adds create_at and updated_at columns to the table. These are used to track creation and last update times. when you run a migration with this line, it will show timestamp of when migration is executed. Best practice is to add them to end of each table.
+        // table.timestamp(true,true); //adds create_at and updated_at columns to the table. These are used to track creation and last update times. when you run a migration with this line, it will show timestamp of when migration is executed. Best practice is to add them to end of each table.
         })
         .then(() => {
             return knex.schema.createTable('terminals', function (table) {
                 table.increments('id').primary();
                 //unsigned - makes sure this column doesn't store negative #s
                 //common practice done in relational database establishment: where airport_id will contain alues that correspond to the primary key id values in airports table (creating a connxn b/t the 2) 
+                //the name of this id references the relational id established with the airports foreign key
                 table.integer('airport_id').unsigned().references('id').inTable('airports')
                 table.string('terminalName', 200).notNullable();
-                table.timestamp(true,true);
+                // table.timestamp(true,true);
             });
         })
         .then(() => {
@@ -39,7 +41,7 @@ exports.up = function(knex) {
                 table.increments('id').primary();
                 table.integer('terminal_id').unsigned().references('id').inTable('terminals');
                 table.string('businessName', 200).notNullable();
-                table.timestamp(true,true);
+                // table.timestamp(true,true);
             });
         })
 };
@@ -60,7 +62,6 @@ exports.down = function(knex) {
       return knex.schema.dropTable('airports');
     });
 };
-
 
 //explanation:
 
