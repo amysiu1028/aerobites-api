@@ -66,5 +66,3 @@ app.listen(8080, () => {
 //-  web browsers restrict web pages from making requests to domains different from the one that served the web page.
 
 //CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers to control which web pages are allowed to access resources (like data) on a different domain. It's designed to prevent malicious websites from making unauthorized requests on behalf of a user. When you configure CORS, you specify which domains are allowed to access the resources, anhd you can control things like allowed HTTP methods and headers.
-
-
