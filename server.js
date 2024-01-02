@@ -41,10 +41,16 @@ app.get('/', async(request, response) => {
 
 // goal is to display only the airport names on the page load, you should retrieve data specifically from the 'airports' table. In your case, you have an endpoint that fetches data from the 'airports' table:
 //
-app.get('/airports', async(request, response) => {
-    response.send('This is the airport details page')
-    // const airportData = await knex.select().from('airports')
-    // response.status(200).json(airportData)
+app.get('/terminals', async(request, response) => {
+    // response.send('This is the airport details page')
+    const airportData = await knex.select().from('terminals')
+    response.status(200).json(airportData)
+})
+
+app.get('/businesses', async(request, response) => {
+    // response.send('This is the airport details page')
+    const airportData = await knex.select().from('businesses')
+    response.status(200).json(airportData)
 })
 //above:
 //airportData is the name of the table we will be migrating (using knex to migrate and create the table over in postgres) to our db.
