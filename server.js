@@ -65,6 +65,11 @@ app.listen(8080, () => {
     console.log('server has started on port 8080')
 })
 
+// process.on('SIGTERM', () => {
+//     server.close(() => {
+//       knex.destroy();
+//     });
+//   });
 //cors info:
 // CORS (Cross-Origin Resource Sharing) is a mechanism that allows a server to specify who can access its resources.
 

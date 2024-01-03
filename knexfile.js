@@ -28,7 +28,12 @@ module.exports = {
     //   database: 'airports'
     //   //security reasons: user and pw in conxn object used for authentication when connection to a PostgreSQL
     // },
-    useNullAsDefault: true
+    useNullAsDefault: true, 
+    pool: {
+      min: 2,
+      max: 10,
+      // createTimeoutMillis: 60000, // 60 seconds (or adjust as needed)
+    },
   },
 
   //condfigures production env 
@@ -54,7 +59,8 @@ module.exports = {
     //pool object specifies the minimum and maximum number of connections in the pool,
     pool: {
       min: 2,
-      max: 10
+      max: 10, 
+      // createTimeoutMillis: 60000, // 60 seconds (or adjust as needed)
     },
     //migrations object defines the table name for migrations.
     //It's a metadata table used by Knex.js to manage database migrations. 
