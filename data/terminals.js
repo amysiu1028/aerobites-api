@@ -1,4 +1,4 @@
-let terminalData = [
+let terminals = [
     {
       airport_id: 1,
       terminalName: "Domestic Terminal",
@@ -221,4 +221,4 @@ let terminalData = [
     }
 ]
 
-module.exports = terminalData
+module.exports = terminals
