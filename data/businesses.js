@@ -1,3687 +1,3589 @@
 [
-    {
-    "id": 1,
-    "terminal_id": 1,
-    "businessName": "Atlanta Chophouse"
-    },
-    {
-    "id": 2,
-    "terminal_id": 1,
-    "businessName": "Auntie Anne's"
-    },
-    {
-    "id": 3,
-    "terminal_id": 1,
-    "businessName": "Burger King"
-    },
-    {
-    "id": 5,
-    "terminal_id": 1,
-    "businessName": "IHOP express"
-    },
-    {
-    "id": 5,
-    "terminal_id": 1,
-    "businessName": "Starbucks"
-    },
-    {
-    "id": 6,
-    "terminal_id": 1,
-    "businessName": "TGI Fridays'"
-    },
-    {
-    "id": 7,
-    "terminal_id": 1,
-    "businessName": "We Juice It"
-    },
-    {
-    "id": 8,
-    "terminal_id": 1,
-    "businessName": "Z Market"
-    },
-    {
-    "id": 9,
-    "terminal_id": 2,
-    "businessName": "Asian Chao"
-    },
-    {
-    "id": 10,
-    "terminal_id": 2,
-    "businessName": "Atlanta Bread & Bar"
-    },
-    {
-    "id": 11,
-    "terminal_id": 2,
-    "businessName": "Atlanta Hawks Bar & Grill"
-    },
-    {
-    "id": 12,
-    "terminal_id": 2,
-    "businessName": "Beer Code (Kitchen & Bar)"
-    },
-    {
-    "id": 13,
-    "terminal_id": 2,
-    "businessName": "Boar's Head Deli"
-    },
-    {
-    "id": 14,
-    "terminal_id": 2,
-    "businessName": "Boar's Head Kiosk"
-    },
-    {
-    "id": 15,
-    "terminal_id": 2,
-    "businessName": "Boardwalk Fresh Burgers & Fries"
-    },
-    {
-    "id": 16,
-    "terminal_id": 2,
-    "businessName": "Brioche Dorée Cafe"
-    },
-    {
-    "id": 17,
-    "terminal_id": 2,
-    "businessName": "Caribou Coffee"
-    },
-    {
-    "id": 18,
-    "terminal_id": 2,
-    "businessName": "Cat Cora's Kitchena"
-    },
-    {
-    "id": 19,
-    "terminal_id": 2,
-    "businessName": "Chick-fil-A"
-    },
-    {
-    "id": 20,
-    "terminal_id": 2,
-    "businessName": "Dunkin Donuts"
-    },
-    {
-    "id": 21,
-    "terminal_id": 2,
-    "businessName": "Freshëns"
-    },
-    {
-    "id": 22,
-    "terminal_id": 2,
-    "businessName": "Goldberg's Bagels Deli"
-    },
-    {
-    "id": 23,
-    "terminal_id": 2,
-    "businessName": "Gordon Biersch"
-    },
-    {
-    "id": 24,
-    "terminal_id": 2,
-    "businessName": "Great Wraps"
-    },
-    {
-    "id": 25,
-    "terminal_id": 2,
-    "businessName": "Low Country New Southern Cuisine"
+    { 
+        terminal_id: 1, 
+        businessName: "Atlanta Chophouse" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "Auntie Anne's" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "Burger King" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "IHOP express" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "Starbucks" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "TGI Fridays'" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "We Juice It" 
+    },
+    { 
+        terminal_id: 1, 
+        businessName: "Z Market" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Asian Chao" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Atlanta Bread & Bar" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Atlanta Hawks Bar & Grill" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Beer Code (Kitchen & Bar)" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Boar's Head Deli" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Boar's Head Kiosk" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Boardwalk Fresh Burgers & Fries" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Brioche Dorée Cafe" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Caribou Coffee" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Cat Cora's Kitchena" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Chick-fil-A" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Dunkin Donuts" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Freshëns" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Goldberg's Bagels Deli" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Gordon Biersch" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Great Wraps" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "Low Country New Southern Cuisine" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "McDonald's" 
+    },
+    { 
+        terminal_id: 2, 
+        businessName: "P.F. Chang's," 
     },
-    {
-    "id": 26,
-    "terminal_id": 2,
-    "businessName": "McDonald's"
-    },
-    {
-    "id": 27,
-    "terminal_id": 2,
-    "businessName": "P.F. Chang's,"
+    { 
+        terminal_id: 2, 
+        businessName: "Piece of Cake" 
     },
-    {
-    "id": 28,
-    "terminal_id": 2,
-    "businessName": "Piece of Cake"
-    },
-    {
-    "id": 29,
-    "terminal_id": 2,
-    "businessName": "Pinkberry"
+    { 
+        terminal_id: 2, 
+        businessName: "Pinkberry" 
     },
-    {
-    "id": 30,
-    "terminal_id": 2,
-    "businessName": "Qdoba Mexican Grill"
+    { 
+        terminal_id: 2, 
+        businessName: "Qdoba Mexican Grill" 
     },
-    {
-    "id": 31,
-    "terminal_id": 2,
-    "businessName": "Savannah's Candy Chicken"
+    { 
+        terminal_id: 2, 
+        businessName: "Savannah's Candy Chicken" 
     },
-    {
-    "id": 32,
-    "terminal_id": 2,
-    "businessName": "Shake Shack"
+    { 
+        terminal_id: 2, 
+        businessName: "Shake Shack" 
     },
-    {
-    "id": 33,
-    "terminal_id": 2,
-    "businessName": "The Coffee Bean & Tea Leaf"
+    { 
+        terminal_id: 2, 
+        businessName: "The Coffee Bean & Tea Leaf" 
     },
-    {
-    "id": 34,
-    "terminal_id": 2,
-    "businessName": "Varasano's Pizzeria"
+    { 
+        terminal_id: 2, 
+        businessName: "Varasano's Pizzeria" 
     },
-    {
-    "id": 35,
-    "terminal_id": 2,
-    "businessName": "Z Market"
+    { 
+        terminal_id: 2, 
+        businessName: "Z Market" 
     },
-    {
-    "id": 36,
-    "terminal_id": 3,
-    "businessName": "Asian Chao"
+    { 
+        terminal_id: 3, 
+        businessName: "Asian Chao" 
     },
-    {
-    "id": 37,
-    "terminal_id": 3,
-    "businessName": "Atlanta Bread Company Kiosk"
+    { 
+        terminal_id: 3, 
+        businessName: "Atlanta Bread Company Kiosk" 
     },
-    {
-    "id": 38,
-    "terminal_id": 3,
-    "businessName": "Auntie Anne’s"
+    { 
+        terminal_id: 3, 
+        businessName: "Auntie Anne’s" 
     },
-    {
-    "id": 39,
-    "terminal_id": 3,
-    "businessName": "Blue Moon Brewhouse"
+    { 
+        terminal_id: 3, 
+        businessName: "Blue Moon Brewhouse" 
     },
-    {
-    "id": 40,
-    "terminal_id": 3,
-    "businessName": "Bobby Burger Palace"
+    { 
+        terminal_id: 3, 
+        businessName: "Bobby Burger Palace" 
     },
-    {
-    "id": 41,
-    "terminal_id": 3,
-    "businessName": "Dunkin' Donuts"
+    { 
+        terminal_id: 3, 
+        businessName: "Dunkin' Donuts" 
     },
-    {
-    "id": 42,
-    "terminal_id": 3,
-    "businessName": "Fresh 2 Order"
+    { 
+        terminal_id: 3, 
+        businessName: "Fresh 2 Order" 
     },
-    {
-    "id": 43,
-    "terminal_id": 3,
-    "businessName": "Freshëns"
+    { 
+        terminal_id: 3, 
+        businessName: "Freshëns" 
     },
-    {
-    "id": 44,
-    "terminal_id": 3,
-    "businessName": "Paschal's"
+    { 
+        terminal_id: 3, 
+        businessName: "Paschal's" 
     },
-    {
-    "id": 45,
-    "terminal_id": 3,
-    "businessName": "Popeyes"
+    { 
+        terminal_id: 3, 
+        businessName: "Popeyes" 
     },
-    {
-    "id": 46,
-    "terminal_id": 3,
-    "businessName": "Proof of the Pudding Kiosk"
+    { 
+        terminal_id: 3, 
+        businessName: "Proof of the Pudding Kiosk" 
     },
-    {
-    "id": 47,
-    "terminal_id": 3,
-    "businessName": "Roast Coffee House"
+    { 
+        terminal_id: 3, 
+        businessName: "Roast Coffee House" 
     },
-    {
-    "id": 48,
-    "terminal_id": 3,
-    "businessName": "Samuel Adams Bar"
+    { 
+        terminal_id: 3, 
+        businessName: "Samuel Adams Bar" 
     },
-    {
-    "id": 49,
-    "terminal_id": 3,
-    "businessName": "Savi Provisions Cafe"
+    { 
+        terminal_id: 3, 
+        businessName: "Savi Provisions Cafe" 
     },
-    {
-    "id": 50,
-    "terminal_id": 3,
-    "businessName": "Savannah's Candy Kitchen"
+    { 
+        terminal_id: 3, 
+        businessName: "Savannah's Candy Kitchen" 
     },
-    {
-    "id": 51,
-    "terminal_id": 3,
-    "businessName": "Sweetwater Last Cast Bar and Grill"
+    { 
+        terminal_id: 3, 
+        businessName: "Sweetwater Last Cast Bar and Grill" 
     },
     {
-    "id": 52,
-    "terminal_id": 3,
-    "businessName": "TGI Friday's"
+        terminal_id: 3,
+        bussinessName: "TGI Friday's"
     },
     {
-    "id": 53,
-    "terminal_id": 3,
-    "businessName": "Wendy’s"
+        terminal_id: 3,
+        bussinessName: "Wendy’s"
     },
     {
-    "id": 54,
-    "terminal_id": 3,
-    "businessName": "Willy's Mexican Grill"
+        terminal_id: 3,
+        bussinessName: "Willy's Mexican Grill"
     },
     {
-    "id": 55,
-    "terminal_id": 3,
-    "businessName": "Z Market"
+        terminal_id: 3,
+        bussinessName: "Z Market"
     },
     {
-    "id": 56,
-    "terminal_id": 4,
-    "businessName": "Atlanta Bread Company"
+        terminal_id: 4,
+        bussinessName: "Atlanta Bread Company"
     },
     {
-    "id": 57,
-    "terminal_id": 4,
-    "businessName": "Auntie Anne’s"
+        terminal_id: 4,
+        bussinessName: "Auntie Anne’s"
     },
     {
-    "id": 58,
-    "terminal_id": 4,
-    "businessName": "Baja Fresh Express"
+        terminal_id: 4,
+        bussinessName: "Baja Fresh Express"
     },
     {
-    "id": 59,
-    "terminal_id": 4,
-    "businessName": "Bantam and Biddy"
+        terminal_id: 4,
+        bussinessName: "Bantam and Biddy"
     },
     {
-    "id": 60,
-    "terminal_id": 4,
-    "businessName": "Carrabba’s Italian Grill"
+        terminal_id: 4,
+        bussinessName: "Carrabba’s Italian Grill"
     },
     {
-    "id": 611,
-    "terminal_id": 4,
-    "businessName": "Charley's Philly Steaks"
+        terminal_id: 4,
+        bussinessName: "Charley's Philly Steaks"
     },
     {
-    "id": 61,
-    "terminal_id": 4,
-    "businessName": "Chick-Fil-A"
+        terminal_id: 4,
+        bussinessName: "Chick-Fil-A"
     },
     {
-    "id": 62,
-    "terminal_id": 4,
-    "businessName": "Famous Famiglia Pizza"
+        terminal_id: 4,
+        bussinessName: "Famous Famiglia Pizza"
     },
     {
-    "id": 63,
-    "terminal_id": 4,
-    "businessName": "Five Guys Burgers and Fries"
+        terminal_id: 4,
+        bussinessName: "Five Guys Burgers and Fries"
     },
     {
-    "id": 64,
-    "terminal_id": 4,
-    "businessName": "Great Wraps"
+        terminal_id: 4,
+        bussinessName: "Great Wraps"
     },
     {
-    "id": 65,
-    "terminal_id": 4,
-    "businessName": "Jersey Mike's Subs"
+        terminal_id: 4,
+        bussinessName: "Jersey Mike's Subs"
     },
     {
-    "id": 66,
-    "terminal_id": 4,
-    "businessName": "Krispy Kreme"
+        terminal_id: 4,
+        bussinessName: "Krispy Kreme"
     },
     {
-    "id": 67,
-    "terminal_id": 4,
-    "businessName": "La Madeleine kiosk"
+        terminal_id: 4,
+        bussinessName: "La Madeleine kiosk"
     },
     {
-    "id": 68,
-    "terminal_id": 4,
-    "businessName": "Leeann Chin"
+        terminal_id: 4,
+        bussinessName: "Leeann Chin"
     },
     {
-    "id": 69,
-    "terminal_id": 4,
-    "businessName": "Links Grill"
+        terminal_id: 4,
+        bussinessName: "Links Grill"
     },
     {
-    "id": 70,
-    "terminal_id": 4,
-    "businessName": "Longhorn Steakhouse"
+        terminal_id: 4,
+        bussinessName: "Longhorn Steakhouse"
     },
     {
-    "id": 71,
-    "terminal_id": 4,
-    "businessName": "Salad Works"
+        terminal_id: 4,
+        bussinessName: "Salad Works"
     },
     {
-    "id": 72,
-    "terminal_id": 4,
-    "businessName": "Savannah's Candy Kitchen"
+        terminal_id: 4,
+        bussinessName: "Savannah's Candy Kitchen"
     },
     {
-    "id": 73,
-    "terminal_id": 4,
-    "businessName": "Sbarro"
+        terminal_id: 4,
+        bussinessName: "Sbarro"
     },
     {
-    "id": 74,
-    "terminal_id": 4,
-    "businessName": "Starbucks"
+        terminal_id: 4,
+        bussinessName: "Starbucks"
     },
     {
-    "id": 75,
-    "terminal_id": 4,
-    "businessName": "Sweet Georgia Juke Joint"
+        terminal_id: 4,
+        bussinessName: "Sweet Georgia Juke Joint"
     },
     {
-    "id": 76,
-    "terminal_id": 4,
-    "businessName": "The Market"
+        terminal_id: 4,
+        bussinessName: "The Market"
     },
     {
-    // "id": ,
-    "terminal_id": 4,
-    "businessName": "The Original El Taco"
+        terminal_id: 4,
+        bussinessName: "The Original El Taco"
     },
     {
-    // "id": ,
-    "terminal_id": 4,
-    "businessName": "The Pecan Bar"
+        terminal_id: 4,
+        bussinessName: "The Pecan Bar"
     },
     {
-    // "id": ,
-    "terminal_id": 4,
-    "businessName": "The Varsity"
+        terminal_id: 4,
+        bussinessName: "The Varsity"
     },
     {
-    // "id": ,
-    "terminal_id": 4,
-    "businessName": "Umaizushi"
+        terminal_id: 4,
+        bussinessName: "Umaizushi"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "40/40 Club"
+        terminal_id: 5,
+        bussinessName: "40/40 Club"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Asian Chao"
+        terminal_id: 5,
+        bussinessName: "Asian Chao"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "ATL Market"
+        terminal_id: 5,
+        bussinessName: "ATL Market"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Atlanta Braves All Star Grill"
+        terminal_id: 5,
+        bussinessName: "Atlanta Braves All Star Grill"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Auntie Annie’s"
+        terminal_id: 5,
+        bussinessName: "Auntie Annie’s"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Buffalo Wild Wings"
+        terminal_id: 5,
+        bussinessName: "Buffalo Wild Wings"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "The Coffee Been & Tea Leaf"
+        terminal_id: 5,
+        bussinessName: "The Coffee Been & Tea Leaf"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Chicken + Beer"
+        terminal_id: 5,
+        bussinessName: "Chicken + Beer"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Chipotle Mexican Grill"
+        terminal_id: 5,
+        bussinessName: "Chipotle Mexican Grill"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Einstein Bros. Bagels"
+        terminal_id: 5,
+        bussinessName: "Einstein Bros. Bagels"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Fav Yo"
+        terminal_id: 5,
+        bussinessName: "Fav Yo"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Famous Famiglia"
+        terminal_id: 5,
+        bussinessName: "Famous Famiglia"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Five Guys Burgers and Fries"
+        terminal_id: 5,
+        bussinessName: "Five Guys Burgers and Fries"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Freshëns"
+        terminal_id: 5,
+        bussinessName: "Freshëns"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Garbanzo Mediterranean Grill"
+        terminal_id: 5,
+        bussinessName: "Garbanzo Mediterranean Grill"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Grindhouse Killer Burgers"
+        terminal_id: 5,
+        bussinessName: "Grindhouse Killer Burgers"
     },
     {
-    // "id": ,
-    "terminal_id": 5,
-    "businessName": "Harvest + Grounds"
-    },
+        terminal_id: 5,
+        bussinessName: "Harvest + Grounds"
+    },    
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "The Market by Food & Wine"
+    terminal_id: 5,
+    bussinessName: "The Market by Food & Wine"
     },
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "Mustard Seed BBQ"
+    terminal_id: 5,
+    bussinessName: "Mustard Seed BBQ"
     },
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "Phillips Seafood,"
+    terminal_id: 5,
+    bussinessName: "Phillips Seafood,"
     },
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "Popeyes"
+    terminal_id: 5,
+    bussinessName: "Popeyes"
     },
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "Terrapin Brewery"
+    terminal_id: 5,
+    bussinessName: "Terrapin Brewery"
     },
     {
     // "id": ,
-    "terminal_id": 5,
-    "businessName": "Wolfgang Puck Fresh Express "
+    terminal_id: 5,
+    bussinessName: "Wolfgang Puck Fresh Express "
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Arby's"
+    terminal_id: 6,
+    bussinessName: "Arby's"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Boar's Head Kiosk"
+    terminal_id: 6,
+    bussinessName: "Boar's Head Kiosk"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Caribou Coffee"
+    terminal_id: 6,
+    bussinessName: "Caribou Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Freshëns"
+    terminal_id: 6,
+    bussinessName: "Freshëns"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "McDonald’s"
+    terminal_id: 6,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Nathan's"
+    terminal_id: 6,
+    bussinessName: "Nathan's"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Nature’s Table"
+    terminal_id: 6,
+    bussinessName: "Nature’s Table"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "One Flew South"
+    terminal_id: 6,
+    bussinessName: "One Flew South"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Qdoba Mexican Grill"
+    terminal_id: 6,
+    bussinessName: "Qdoba Mexican Grill"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Panda Express"
+    terminal_id: 6,
+    bussinessName: "Panda Express"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Subway"
+    terminal_id: 6,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "TGI Friday’s"
+    terminal_id: 6,
+    bussinessName: "TGI Friday’s"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "The Piano Bar"
+    terminal_id: 6,
+    bussinessName: "The Piano Bar"
     },
     {
     // "id": ,
-    "terminal_id": 6,
-    "businessName": "Villa Pizza Fresh Italian Kitchen"
+    terminal_id: 6,
+    bussinessName: "Villa Pizza Fresh Italian Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Atlanta Stillhouse"
+    terminal_id: 7,
+    bussinessName: "Atlanta Stillhouse"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Auntie Annie's"
+    terminal_id: 7,
+    bussinessName: "Auntie Annie's"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Bojangles"
+    terminal_id: 7,
+    bussinessName: "Bojangles"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Coffee Bean and Tea Leaf"
+    terminal_id: 7,
+    bussinessName: "Coffee Bean and Tea Leaf"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Goldberg’s Bagel Company & Deli"
+    terminal_id: 7,
+    bussinessName: "Goldberg’s Bagel Company & Deli"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "GrindHouse Burgers"
+    terminal_id: 7,
+    bussinessName: "GrindHouse Burgers"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Harvest & Grounds Cafe"
+    terminal_id: 7,
+    bussinessName: "Harvest & Grounds Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Jamba Juice"
+    terminal_id: 7,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Papi’s Caribbean Cafe"
+    terminal_id: 7,
+    bussinessName: "Papi’s Caribbean Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Subway"
+    terminal_id: 7,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "TGI Friday’s"
+    terminal_id: 7,
+    bussinessName: "TGI Friday’s"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Uncle Maddio’s"
+    terminal_id: 7,
+    bussinessName: "Uncle Maddio’s"
     },
     {
     // "id": ,
-    "terminal_id": 7,
-    "businessName": "Z Market"
+    terminal_id: 7,
+    bussinessName: "Z Market"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Ecco"
+    terminal_id: 8,
+    bussinessName: "Ecco"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Lorena Garcia Tapas"
+    terminal_id: 8,
+    bussinessName: "Lorena Garcia Tapas"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Maison Mathis Belgium Beer Cafe"
+    terminal_id: 8,
+    bussinessName: "Maison Mathis Belgium Beer Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "The Original El Taco"
+    terminal_id: 8,
+    bussinessName: "The Original El Taco"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "The Pecan Bistro"
+    terminal_id: 8,
+    bussinessName: "The Pecan Bistro"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Pei Wei"
+    terminal_id: 8,
+    bussinessName: "Pei Wei"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Starbucks"
+    terminal_id: 8,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "Sweet Auburn Market"
+    terminal_id: 8,
+    bussinessName: "Sweet Auburn Market"
     },
     {
     // "id": ,
-    "terminal_id": 8,
-    "businessName": "The Varsity"
+    terminal_id: 8,
+    bussinessName: "The Varsity"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Bleu Mediterranean Bar"
+    terminal_id: 9,
+    bussinessName: "Bleu Mediterranean Bar"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "The Salt Lick Bar-B-Que"
+    terminal_id: 9,
+    bussinessName: "The Salt Lick Bar-B-Que"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Pappadeaux Seafood Kitchen"
+    terminal_id: 9,
+    bussinessName: "Pappadeaux Seafood Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Ling & Louie’s"
+    terminal_id: 9,
+    bussinessName: "Ling & Louie’s"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Pappasito’s Cantina"
+    terminal_id: 9,
+    bussinessName: "Pappasito’s Cantina"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "California Pizza Kitchen"
+    terminal_id: 9,
+    bussinessName: "California Pizza Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Vino Volo"
+    terminal_id: 9,
+    bussinessName: "Vino Volo"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Lorena Garcia Tapas y Cocina"
+    terminal_id: 9,
+    bussinessName: "Lorena Garcia Tapas y Cocina"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Twisted Root"
+    terminal_id: 9,
+    bussinessName: "Twisted Root"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Plum Market"
+    terminal_id: 9,
+    bussinessName: "Plum Market"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Auntie Anne’s Pretzels"
+    terminal_id: 9,
+    bussinessName: "Auntie Anne’s Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 9,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Einstein Bros. Bagels"
+    terminal_id: 9,
+    bussinessName: "Einstein Bros. Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "La Creme Coffee & Tea"
+    terminal_id: 9,
+    bussinessName: "La Creme Coffee & Tea"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "La Madeline"
+    terminal_id: 9,
+    bussinessName: "La Madeline"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "McDonald’s"
+    terminal_id: 9,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Panera Bread"
+    terminal_id: 9,
+    bussinessName: "Panera Bread"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Pinkberry"
+    terminal_id: 9,
+    bussinessName: "Pinkberry"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Popeye’s"
+    terminal_id: 9,
+    bussinessName: "Popeye’s"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Qdoba"
+    terminal_id: 9,
+    bussinessName: "Qdoba"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Starbucks"
+    terminal_id: 9,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "TGI Fridays"
+    terminal_id: 9,
+    bussinessName: "TGI Fridays"
     },
     {
     // "id": ,
-    "terminal_id": 9,
-    "businessName": "Whisk & Bowl"
+    terminal_id: 9,
+    bussinessName: "Whisk & Bowl"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Cousins BBQ"
+    terminal_id: 10,
+    bussinessName: "Cousins BBQ"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Hickory by Kent Rathbun"
+    terminal_id: 10,
+    bussinessName: "Hickory by Kent Rathbun"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Cantina Laredo"
+    terminal_id: 10,
+    bussinessName: "Cantina Laredo"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Decanted"
+    terminal_id: 10,
+    bussinessName: "Decanted"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Cousins Back Porch"
+    terminal_id: 10,
+    bussinessName: "Cousins Back Porch"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Auntie Anne’s Pretzels"
+    terminal_id: 10,
+    bussinessName: "Auntie Anne’s Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Baskin-Robbins"
+    terminal_id: 10,
+    bussinessName: "Baskin-Robbins"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Caribou Coffee"
+    terminal_id: 10,
+    bussinessName: "Caribou Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 10,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Garrett Popcorn Shops"
+    terminal_id: 10,
+    bussinessName: "Garrett Popcorn Shops"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "McAllister’s Deli"
+    terminal_id: 10,
+    bussinessName: "McAllister’s Deli"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "McDonald’s"
+    terminal_id: 10,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Panda Express"
+    terminal_id: 10,
+    bussinessName: "Panda Express"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Plum Market"
+    terminal_id: 10,
+    bussinessName: "Plum Market"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Red Mango"
+    terminal_id: 10,
+    bussinessName: "Red Mango"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Smashburger"
+    terminal_id: 10,
+    bussinessName: "Smashburger"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Starbucks"
+    terminal_id: 10,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Subway"
+    terminal_id: 10,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "TGI Fridays "
+    terminal_id: 10,
+    bussinessName: "TGI Fridays "
     },
     {
     // "id": ,
-    "terminal_id": 10,
-    "businessName": "Wingstop"
+    terminal_id: 10,
+    bussinessName: "Wingstop"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Bleu Mediterranean Bar"
+    terminal_id: 11,
+    bussinessName: "Bleu Mediterranean Bar"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Shake Shack"
+    terminal_id: 11,
+    bussinessName: "Shake Shack"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Pappadeaux Seafood Bar"
+    terminal_id: 11,
+    bussinessName: "Pappadeaux Seafood Bar"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Pappadeaux Seafood Kitchen"
+    terminal_id: 11,
+    bussinessName: "Pappadeaux Seafood Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Pappasito’s Cantina"
+    terminal_id: 11,
+    bussinessName: "Pappasito’s Cantina"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Banh Shop"
+    terminal_id: 11,
+    bussinessName: "Banh Shop"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Nowitzki"
+    terminal_id: 11,
+    bussinessName: "Nowitzki"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Auntie Anne’s Pretzels"
+    terminal_id: 11,
+    bussinessName: "Auntie Anne’s Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Baskin-Robbins"
+    terminal_id: 11,
+    bussinessName: "Baskin-Robbins"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Boar’s Head Deli"
+    terminal_id: 11,
+    bussinessName: "Boar’s Head Deli"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Chick-fil-A"
+    terminal_id: 11,
+    bussinessName: "Chick-fil-A"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Chili’s"
+    terminal_id: 11,
+    bussinessName: "Chili’s"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Dickey’s Barbecue Pit"
+    terminal_id: 11,
+    bussinessName: "Dickey’s Barbecue Pit"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 11,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Einstein Bros. Bagels"
+    terminal_id: 11,
+    bussinessName: "Einstein Bros. Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Freshens Yogurt & Smoothies"
+    terminal_id: 11,
+    bussinessName: "Freshens Yogurt & Smoothies"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "McDonald’s"
+    terminal_id: 11,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Pinkberry"
+    terminal_id: 11,
+    bussinessName: "Pinkberry"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Pizza Hut Express "
+    terminal_id: 11,
+    bussinessName: "Pizza Hut Express "
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 11,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "TGI Fridays"
+    terminal_id: 11,
+    bussinessName: "TGI Fridays"
     },
     {
     // "id": ,
-    "terminal_id": 11,
-    "businessName": "Whisk & Bowl "
+    terminal_id: 11,
+    bussinessName: "Whisk & Bowl "
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Flying Saucer Draught Emporium "
+    terminal_id: 12,
+    bussinessName: "Flying Saucer Draught Emporium "
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Eatzi’s "
+    terminal_id: 12,
+    bussinessName: "Eatzi’s "
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Hickory"
+    terminal_id: 12,
+    bussinessName: "Hickory"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Cru Food & Wine Bar"
+    terminal_id: 12,
+    bussinessName: "Cru Food & Wine Bar"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "The Italian Kitchen by Wolfgang Puck"
+    terminal_id: 12,
+    bussinessName: "The Italian Kitchen by Wolfgang Puck"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Artisan Market"
+    terminal_id: 12,
+    bussinessName: "Artisan Market"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "TX/MX"
+    terminal_id: 12,
+    bussinessName: "TX/MX"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Cantina Laredo "
+    terminal_id: 12,
+    bussinessName: "Cantina Laredo "
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Brewed"
+    terminal_id: 12,
+    bussinessName: "Brewed"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Hickory"
+    terminal_id: 12,
+    bussinessName: "Hickory"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Bar Louie"
+    terminal_id: 12,
+    bussinessName: "Bar Louie"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Banh Shop"
+    terminal_id: 12,
+    bussinessName: "Banh Shop"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Applebee’s"
+    terminal_id: 12,
+    bussinessName: "Applebee’s"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Buffalo Wild Wings"
+    terminal_id: 12,
+    bussinessName: "Buffalo Wild Wings"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Chick-fil-A"
+    terminal_id: 12,
+    bussinessName: "Chick-fil-A"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Dickey’s Barbecue Pit"
+    terminal_id: 12,
+    bussinessName: "Dickey’s Barbecue Pit"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Great American Bakery"
+    terminal_id: 12,
+    bussinessName: "Great American Bakery"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Lavazza Coffee"
+    terminal_id: 12,
+    bussinessName: "Lavazza Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "McDonald’s"
+    terminal_id: 12,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Pinkberry"
+    terminal_id: 12,
+    bussinessName: "Pinkberry"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Subway"
+    terminal_id: 12,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Starbucks"
+    terminal_id: 12,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 12,
-    "businessName": "Whataburger"
+    terminal_id: 12,
+    bussinessName: "Whataburger"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Drew Pearson’s Sports 88"
+    terminal_id: 13,
+    bussinessName: "Drew Pearson’s Sports 88"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Love Shack"
+    terminal_id: 13,
+    bussinessName: "Love Shack"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Sonny Bryan’s Smokehouse"
+    terminal_id: 13,
+    bussinessName: "Sonny Bryan’s Smokehouse"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "2.0 Taco & Tequila Bar"
+    terminal_id: 13,
+    bussinessName: "2.0 Taco & Tequila Bar"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Auntie Anne’s Pretzels"
+    terminal_id: 13,
+    bussinessName: "Auntie Anne’s Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Chick-fil-A"
+    terminal_id: 13,
+    bussinessName: "Chick-fil-A"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 13,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Einstein Bros. Bagels"
+    terminal_id: 13,
+    bussinessName: "Einstein Bros. Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "IHOP"
+    terminal_id: 13,
+    bussinessName: "IHOP"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Jamba"
+    terminal_id: 13,
+    bussinessName: "Jamba"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Jimmy John’s"
+    terminal_id: 13,
+    bussinessName: "Jimmy John’s"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Panda Express and Bar"
+    terminal_id: 13,
+    bussinessName: "Panda Express and Bar"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Starbucks"
+    terminal_id: 13,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "TGI Fridays"
+    terminal_id: 13,
+    bussinessName: "TGI Fridays"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Uno Due Go"
+    terminal_id: 13,
+    bussinessName: "Uno Due Go"
     },
     {
     // "id": ,
-    "terminal_id": 13,
-    "businessName": "Wendy’s"
+    terminal_id: 13,
+    bussinessName: "Wendy’s"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Ben & Jerry's Ice Cream"
+    terminal_id: 14,
+    bussinessName: "Ben & Jerry's Ice Cream"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Blue Sky Bar"
+    terminal_id: 14,
+    bussinessName: "Blue Sky Bar"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Caribou Coffee"
+    terminal_id: 14,
+    bussinessName: "Caribou Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Dazbog Coffee"
+    terminal_id: 14,
+    bussinessName: "Dazbog Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Denver Chophouse"
+    terminal_id: 14,
+    bussinessName: "Denver Chophouse"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 14,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Einstein Bros. Bagels"
+    terminal_id: 14,
+    bussinessName: "Einstein Bros. Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Freshëns Fresh Food Studio"
+    terminal_id: 14,
+    bussinessName: "Freshëns Fresh Food Studio"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Grab & Go Marketplace"
+    terminal_id: 14,
+    bussinessName: "Grab & Go Marketplace"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "KFC Express/Pizza Hut Express"
+    terminal_id: 14,
+    bussinessName: "KFC Express/Pizza Hut Express"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Lavazza"
+    terminal_id: 14,
+    bussinessName: "Lavazza"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "McDonald's"
+    terminal_id: 14,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": ""
+    terminal_id: 14,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Mesa Verde Bar & Grill "
+    terminal_id: 14,
+    bussinessName: "Mesa Verde Bar & Grill "
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Panda Express"
+    terminal_id: 14,
+    bussinessName: "Panda Express"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Pizza Hut Tuk Tuk"
+    terminal_id: 14,
+    bussinessName: "Pizza Hut Tuk Tuk"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Quiznos"
+    terminal_id: 14,
+    bussinessName: "Quiznos"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Sky Snax Grab & Go"
+    terminal_id: 14,
+    bussinessName: "Sky Snax Grab & Go"
     },
     {
     // "id": ,
-    "terminal_id": 14,
-    "businessName": "Vino Volo"
+    terminal_id: 14,
+    bussinessName: "Vino Volo"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Aviator's Sports Bar & Bar-B-Que "
+    terminal_id: 15,
+    bussinessName: "Aviator's Sports Bar & Bar-B-Que "
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Cantina Grill"
+    terminal_id: 15,
+    bussinessName: "Cantina Grill"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Caribou Coffee"
+    terminal_id: 15,
+    bussinessName: "Caribou Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "City Pho"
+    terminal_id: 15,
+    bussinessName: "City Pho"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "City Wok"
+    terminal_id: 15,
+    bussinessName: "City Wok"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "CRÚ Food and Wine Bar"
+    terminal_id: 15,
+    bussinessName: "CRÚ Food and Wine Bar"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Garbanzo Fresh Mediterranean"
+    terminal_id: 15,
+    bussinessName: "Garbanzo Fresh Mediterranean"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Half Moon Empanadas"
+    terminal_id: 15,
+    bussinessName: "Half Moon Empanadas"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Heidi's Brooklyn Deli"
+    terminal_id: 15,
+    bussinessName: "Heidi's Brooklyn Deli"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Hotch Potch Snack Shoppe"
+    terminal_id: 15,
+    bussinessName: "Hotch Potch Snack Shoppe"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Jamba Juice"
+    terminal_id: 15,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Kabod Coffee"
+    terminal_id: 15,
+    bussinessName: "Kabod Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Lounge 5280 Wine Bar"
+    terminal_id: 15,
+    bussinessName: "Lounge 5280 Wine Bar"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "McDonald’s"
+    terminal_id: 15,
+    bussinessName: "McDonald’s"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Modern Market"
+    terminal_id: 15,
+    bussinessName: "Modern Market"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Pizza Hut Express/Häagen Dazs"
+    terminal_id: 15,
+    bussinessName: "Pizza Hut Express/Häagen Dazs"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Pour La France!"
+    terminal_id: 15,
+    bussinessName: "Pour La France!"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Qdoba Mexican Eats"
+    terminal_id: 15,
+    bussinessName: "Qdoba Mexican Eats"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Que Bueno! Mexican Grille"
+    terminal_id: 15,
+    bussinessName: "Que Bueno! Mexican Grille"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Rocky Mountain Chocolate Factory"
+    terminal_id: 15,
+    bussinessName: "Rocky Mountain Chocolate Factory"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Sara Lee Sandwich Shoppe/Colombo Frozen Yogurt"
+    terminal_id: 15,
+    bussinessName: "Sara Lee Sandwich Shoppe/Colombo Frozen Yogurt"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Shake Shack"
+    terminal_id: 15,
+    bussinessName: "Shake Shack"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "SmashBurger & Bar"
+    terminal_id: 15,
+    bussinessName: "SmashBurger & Bar"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 15,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Sunset Loop Market"
+    terminal_id: 15,
+    bussinessName: "Sunset Loop Market"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "SweetWater Mountain Taphouse"
+    terminal_id: 15,
+    bussinessName: "SweetWater Mountain Taphouse"
     },
     {
     // "id": ,
-    "terminal_id": 15,
-    "businessName": "Wolfgang Puck"
+    terminal_id: 15,
+    bussinessName: "Wolfgang Puck"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Auntie Anne's Pretzels"
+    terminal_id: 16,
+    bussinessName: "Auntie Anne's Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Big Bowl"
+    terminal_id: 16,
+    bussinessName: "Big Bowl"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Caribou Coffee"
+    terminal_id: 16,
+    bussinessName: "Caribou Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "The Coffee Bean & Tea Leaf"
+    terminal_id: 16,
+    bussinessName: "The Coffee Bean & Tea Leaf"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Coors Silver Bullet Bar"
+    terminal_id: 16,
+    bussinessName: "Coors Silver Bullet Bar"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Einstein Bros. Bagels"
+    terminal_id: 16,
+    bussinessName: "Einstein Bros. Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Grab & Go Marketplace"
+    terminal_id: 16,
+    bussinessName: "Grab & Go Marketplace"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Jamba Juice"
+    terminal_id: 16,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "The Magic Pan"
+    terminal_id: 16,
+    bussinessName: "The Magic Pan"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "McDonald's"
+    terminal_id: 16,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Modern Market"
+    terminal_id: 16,
+    bussinessName: "Modern Market"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "SmashBurger & Bar"
+    terminal_id: 16,
+    bussinessName: "SmashBurger & Bar"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 16,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Tapas Sky Bar"
+    terminal_id: 16,
+    bussinessName: "Tapas Sky Bar"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Timberline Steaks & Grille"
+    terminal_id: 16,
+    bussinessName: "Timberline Steaks & Grille"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Villa Pizza"
+    terminal_id: 16,
+    bussinessName: "Villa Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Vino Volo"
+    terminal_id: 16,
+    bussinessName: "Vino Volo"
     },
     {
     // "id": ,
-    "terminal_id": 16,
-    "businessName": "Woody Creek Bakery & Café"
+    terminal_id: 16,
+    bussinessName: "Woody Creek Bakery & Café"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "America's Dog"
+    terminal_id: 17,
+    bussinessName: "America's Dog"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Auntie Anne's"
+    terminal_id: 17,
+    bussinessName: "Auntie Anne's"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Beaudevin Wine Bar"
+    terminal_id: 17,
+    bussinessName: "Beaudevin Wine Bar"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Berghoff Cafe"
+    terminal_id: 17,
+    bussinessName: "Berghoff Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Billy Goat Tavern & Grill"
+    terminal_id: 17,
+    bussinessName: "Billy Goat Tavern & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Brioche Doree"
+    terminal_id: 17,
+    bussinessName: "Brioche Doree"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Cafe Zoot"
+    terminal_id: 17,
+    bussinessName: "Cafe Zoot"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Cafe Descartes"
+    terminal_id: 17,
+    bussinessName: "Cafe Descartes"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Chi Life Market"
+    terminal_id: 17,
+    bussinessName: "Chi Life Market"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Ciao Gourmet Market"
+    terminal_id: 17,
+    bussinessName: "Ciao Gourmet Market"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Dunkin"
+    terminal_id: 17,
+    bussinessName: "Dunkin"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Eli's Cheesecake"
+    terminal_id: 17,
+    bussinessName: "Eli's Cheesecake"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Farmer's Fridge"
+    terminal_id: 17,
+    bussinessName: "Farmer's Fridge"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Fresh Market on the Go"
+    terminal_id: 17,
+    bussinessName: "Fresh Market on the Go"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Galileo Bar & Grill"
+    terminal_id: 17,
+    bussinessName: "Galileo Bar & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Garrett Popcorn Shops"
+    terminal_id: 17,
+    bussinessName: "Garrett Popcorn Shops"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Goose Island Beer Company"
+    terminal_id: 17,
+    bussinessName: "Goose Island Beer Company"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Great American Bagel Company"
+    terminal_id: 17,
+    bussinessName: "Great American Bagel Company"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Jamba Juice"
+    terminal_id: 17,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Jazz Bar"
+    terminal_id: 17,
+    bussinessName: "Jazz Bar"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "La Tapenade Mediterranean Cafe"
+    terminal_id: 17,
+    bussinessName: "La Tapenade Mediterranean Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Manchu Wok"
+    terminal_id: 17,
+    bussinessName: "Manchu Wok"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "McDonald's"
+    terminal_id: 17,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Nuts on Clark"
+    terminal_id: 17,
+    bussinessName: "Nuts on Clark"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Reggio's Pizza"
+    terminal_id: 17,
+    bussinessName: "Reggio's Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Rocky Mountain Chocolate Factory"
+    terminal_id: 17,
+    bussinessName: "Rocky Mountain Chocolate Factory"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Salad Works"
+    terminal_id: 17,
+    bussinessName: "Salad Works"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Smoothie King / The Grove"
+    terminal_id: 17,
+    bussinessName: "Smoothie King / The Grove"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 17,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Tuscany Cafe"
+    terminal_id: 17,
+    bussinessName: "Tuscany Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Wicker Park Seafood & Sushi Bar"
+    terminal_id: 17,
+    bussinessName: "Wicker Park Seafood & Sushi Bar"
     },
     {
     // "id": ,
-    "terminal_id": 17,
-    "businessName": "Wolfgang Express"
+    terminal_id: 17,
+    bussinessName: "Wolfgang Express"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Auntie Anne's"
+    terminal_id: 18,
+    bussinessName: "Auntie Anne's"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Brioche Doree"
+    terminal_id: 18,
+    bussinessName: "Brioche Doree"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "CIBO Express Gourmet Market"
+    terminal_id: 18,
+    bussinessName: "CIBO Express Gourmet Market"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Carry Out Carry On"
+    terminal_id: 18,
+    bussinessName: "Carry Out Carry On"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Chicago Style Hot Dogs"
+    terminal_id: 18,
+    bussinessName: "Chicago Style Hot Dogs"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Chili's Too"
+    terminal_id: 18,
+    bussinessName: "Chili's Too"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Eat Well, Travel Further"
+    terminal_id: 18,
+    bussinessName: "Eat Well, Travel Further"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Farmer's Fridge"
+    terminal_id: 18,
+    bussinessName: "Farmer's Fridge"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "La Tapenade Mediterranean Cafe"
+    terminal_id: 18,
+    bussinessName: "La Tapenade Mediterranean Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "McDonald's"
+    terminal_id: 18,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Nuts on Clark"
+    terminal_id: 18,
+    bussinessName: "Nuts on Clark"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Sky Bridge Bar & Grill"
+    terminal_id: 18,
+    bussinessName: "Sky Bridge Bar & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Stanley's Blackhawks Kitchen & Tap"
+    terminal_id: 18,
+    bussinessName: "Stanley's Blackhawks Kitchen & Tap"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 18,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Summer House Santa Monica"
+    terminal_id: 18,
+    bussinessName: "Summer House Santa Monica"
     },
     {
     // "id": ,
-    "terminal_id": 18,
-    "businessName": "Wicker Park Seafood & Sushi Bar (Bar Service Only)"
+    terminal_id: 18,
+    bussinessName: "Wicker Park Seafood & Sushi Bar (Bar Service Only)"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "B-Smooth, Smoothies & Salads"
+    terminal_id: 19,
+    bussinessName: "B-Smooth, Smoothies & Salads"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "BJ Gourmet Market"
+    terminal_id: 19,
+    bussinessName: "BJ Gourmet Market"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Brioche Doree"
+    terminal_id: 19,
+    bussinessName: "Brioche Doree"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Bubbles Wine Bar"
+    terminal_id: 19,
+    bussinessName: "Bubbles Wine Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Burger Federation"
+    terminal_id: 19,
+    bussinessName: "Burger Federation"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Burrito Beach"
+    terminal_id: 19,
+    bussinessName: "Burrito Beach"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Café Descartes"
+    terminal_id: 19,
+    bussinessName: "Café Descartes"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "CIBO Express Gourmet Market"
+    terminal_id: 19,
+    bussinessName: "CIBO Express Gourmet Market"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Chicago Cubs Bar & Grill"
+    terminal_id: 19,
+    bussinessName: "Chicago Cubs Bar & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Chili's Too"
+    terminal_id: 19,
+    bussinessName: "Chili's Too"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Dunkin' Donuts"
+    terminal_id: 19,
+    bussinessName: "Dunkin' Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Facades Bar"
+    terminal_id: 19,
+    bussinessName: "Facades Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Farmers Market"
+    terminal_id: 19,
+    bussinessName: "Farmers Market"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Fulton Street Cafe"
+    terminal_id: 19,
+    bussinessName: "Fulton Street Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Garrett Popcorn Shops"
+    terminal_id: 19,
+    bussinessName: "Garrett Popcorn Shops"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Gold Coast Dogs"
+    terminal_id: 19,
+    bussinessName: "Gold Coast Dogs"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Goose Island Beer Company"
+    terminal_id: 19,
+    bussinessName: "Goose Island Beer Company"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "ICE Dishes & Drinks Bar"
+    terminal_id: 19,
+    bussinessName: "ICE Dishes & Drinks Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Great American Bagel Company"
+    terminal_id: 19,
+    bussinessName: "Great American Bagel Company"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "La Tapenade Mediterranean Cafe"
+    terminal_id: 19,
+    bussinessName: "La Tapenade Mediterranean Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Macaroni Grill"
+    terminal_id: 19,
+    bussinessName: "Macaroni Grill"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Manchu Wok"
+    terminal_id: 19,
+    bussinessName: "Manchu Wok"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "McDonald's"
+    terminal_id: 19,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "O'Brien's Restaurant & Bar"
+    terminal_id: 19,
+    bussinessName: "O'Brien's Restaurant & Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Prairie Tap"
+    terminal_id: 19,
+    bussinessName: "Prairie Tap"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Publican Tavern"
+    terminal_id: 19,
+    bussinessName: "Publican Tavern"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Reggio's Pizza"
+    terminal_id: 19,
+    bussinessName: "Reggio's Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Rocky Mountain Chocolate Factory"
+    terminal_id: 19,
+    bussinessName: "Rocky Mountain Chocolate Factory"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Rush Street Bar"
+    terminal_id: 19,
+    bussinessName: "Rush Street Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Skyscrapers Bar"
+    terminal_id: 19,
+    bussinessName: "Skyscrapers Bar"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 19,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Subway"
+    terminal_id: 19,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Tortas Frontera by Rick Bayless"
+    terminal_id: 19,
+    bussinessName: "Tortas Frontera by Rick Bayless"
     },
     {
     // "id": ,
-    "terminal_id": 19,
-    "businessName": "Wolfgang Puck Express"
+    terminal_id: 19,
+    bussinessName: "Wolfgang Puck Express"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Big Bowl"
+    terminal_id: 20,
+    bussinessName: "Big Bowl"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Burger King"
+    terminal_id: 20,
+    bussinessName: "Burger King"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Dunkin' Donuts"
+    terminal_id: 20,
+    bussinessName: "Dunkin' Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Farmer's Fridge"
+    terminal_id: 20,
+    bussinessName: "Farmer's Fridge"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Farmer2Air Market"
+    terminal_id: 20,
+    bussinessName: "Farmer2Air Market"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Garrett Popcorn Shops"
+    terminal_id: 20,
+    bussinessName: "Garrett Popcorn Shops"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Goddess on the Go"
+    terminal_id: 20,
+    bussinessName: "Goddess on the Go"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Hub 51"
+    terminal_id: 20,
+    bussinessName: "Hub 51"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "McDonald's"
+    terminal_id: 20,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "R.J. Grunts Burgers & Fries"
+    terminal_id: 20,
+    bussinessName: "R.J. Grunts Burgers & Fries"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Six Points Market"
+    terminal_id: 20,
+    bussinessName: "Six Points Market"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Sparrow Coffee"
+    terminal_id: 20,
+    bussinessName: "Sparrow Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "The Goddess and Grocer"
+    terminal_id: 20,
+    bussinessName: "The Goddess and Grocer"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Tocco"
+    terminal_id: 20,
+    bussinessName: "Tocco"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Tortas Frontera by Rick Bayless"
+    terminal_id: 20,
+    bussinessName: "Tortas Frontera by Rick Bayless"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Urban Olive"
+    terminal_id: 20,
+    bussinessName: "Urban Olive"
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": ""
+    terminal_id: 20,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 20,
-    "businessName": "Wow Bao"
+    terminal_id: 20,
+    bussinessName: "Wow Bao"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Jamba Juice"
+    terminal_id: 21,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Siegel’s Bagelmania"
+    terminal_id: 21,
+    bussinessName: "Siegel’s Bagelmania"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Great Steak & Potato Co."
+    terminal_id: 21,
+    bussinessName: "Great Steak & Potato Co."
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Moe’s Southwest Grill"
+    terminal_id: 21,
+    bussinessName: "Moe’s Southwest Grill"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Starbucks"
+    terminal_id: 21,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "The B Lounge"
+    terminal_id: 21,
+    bussinessName: "The B Lounge"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Dunkin’ Express"
+    terminal_id: 21,
+    bussinessName: "Dunkin’ Express"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Cocktail Bar"
+    terminal_id: 21,
+    bussinessName: "Cocktail Bar"
     },
     {
     // "id": ,
-    "terminal_id": 21,
-    "businessName": "Stella Artois Bar"
+    terminal_id: 21,
+    bussinessName: "Stella Artois Bar"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Shake Shack"
+    terminal_id: 22,
+    bussinessName: "Shake Shack"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "360° Gourmet Burritos "
+    terminal_id: 22,
+    bussinessName: "360° Gourmet Burritos "
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Einstein Bros. Bagel"
+    terminal_id: 22,
+    bussinessName: "Einstein Bros. Bagel"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Fresh Attractions"
+    terminal_id: 22,
+    bussinessName: "Fresh Attractions"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Little Tony’s Pizzeria"
+    terminal_id: 22,
+    bussinessName: "Little Tony’s Pizzeria"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Mrs. Fields"
+    terminal_id: 22,
+    bussinessName: "Mrs. Fields"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Port of Subs"
+    terminal_id: 22,
+    bussinessName: "Port of Subs"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "Red Star Lounge"
+    terminal_id: 22,
+    bussinessName: "Red Star Lounge"
     },
     {
     // "id": ,
-    "terminal_id": 22,
-    "businessName": "PGA Tour Grill"
+    terminal_id: 22,
+    bussinessName: "PGA Tour Grill"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Jose Cuervo Tequileria"
+    terminal_id: 23,
+    bussinessName: "Jose Cuervo Tequileria"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Popeyes"
+    terminal_id: 23,
+    bussinessName: "Popeyes"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Auntie Anne’s"
+    terminal_id: 23,
+    bussinessName: "Auntie Anne’s"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Brookwood Farms BBQ"
+    terminal_id: 23,
+    bussinessName: "Brookwood Farms BBQ"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Burger King"
+    terminal_id: 23,
+    bussinessName: "Burger King"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Coffee Bean & Tea Leaf"
+    terminal_id: 23,
+    bussinessName: "Coffee Bean & Tea Leaf"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Fresh Attractions"
+    terminal_id: 23,
+    bussinessName: "Fresh Attractions"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Fresh Market on the Go"
+    terminal_id: 23,
+    bussinessName: "Fresh Market on the Go"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "The Great American Bagel & Bakery"
+    terminal_id: 23,
+    bussinessName: "The Great American Bagel & Bakery"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Jamba Juice"
+    terminal_id: 23,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "LAS MKT"
+    terminal_id: 23,
+    bussinessName: "LAS MKT"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Nathan’s Famous"
+    terminal_id: 23,
+    bussinessName: "Nathan’s Famous"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Pei Wei Asian Diner"
+    terminal_id: 23,
+    bussinessName: "Pei Wei Asian Diner"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Popeye’s"
+    terminal_id: 23,
+    bussinessName: "Popeye’s"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Villa Fresh Italian Kitchen"
+    terminal_id: 23,
+    bussinessName: "Villa Fresh Italian Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Wendy’s"
+    terminal_id: 23,
+    bussinessName: "Wendy’s"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Corcoran’s Irish Pub"
+    terminal_id: 23,
+    bussinessName: "Corcoran’s Irish Pub"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Crafted Bar"
+    terminal_id: 23,
+    bussinessName: "Crafted Bar"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Barney’s Lounge"
+    terminal_id: 23,
+    bussinessName: "Barney’s Lounge"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Jersey Mike’s"
+    terminal_id: 23,
+    bussinessName: "Jersey Mike’s"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Lucky Streak"
+    terminal_id: 23,
+    bussinessName: "Lucky Streak"
     },
     {
     // "id": ,
-    "terminal_id": 23,
-    "businessName": "Sammy’s Beach Bar & Grill"
+    terminal_id: 23,
+    bussinessName: "Sammy’s Beach Bar & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Ruby’s Diner and Ruby’s Bar"
+    terminal_id: 24,
+    bussinessName: "Ruby’s Diner and Ruby’s Bar"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Wolfgang Puck Express"
+    terminal_id: 24,
+    bussinessName: "Wolfgang Puck Express"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Auntie Anne’s"
+    terminal_id: 24,
+    bussinessName: "Auntie Anne’s"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Baja Fresh Express"
+    terminal_id: 24,
+    bussinessName: "Baja Fresh Express"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Burger King"
+    terminal_id: 24,
+    bussinessName: "Burger King"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "California Pizza Kitchen"
+    terminal_id: 24,
+    bussinessName: "California Pizza Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Cinnabon"
+    terminal_id: 24,
+    bussinessName: "Cinnabon"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Fresh Attractions"
+    terminal_id: 24,
+    bussinessName: "Fresh Attractions"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Great American Bagel & Bakery "
+    terminal_id: 24,
+    bussinessName: "Great American Bagel & Bakery "
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Jamba Juice"
+    terminal_id: 24,
+    bussinessName: "Jamba Juice"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Mrs. Fields"
+    terminal_id: 24,
+    bussinessName: "Mrs. Fields"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Port of Subs"
+    terminal_id: 24,
+    bussinessName: "Port of Subs"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Quiznos Subs"
+    terminal_id: 24,
+    bussinessName: "Quiznos Subs"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Starbucks Coffee"
+    terminal_id: 24,
+    bussinessName: "Starbucks Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Burke in the Box"
+    terminal_id: 24,
+    bussinessName: "Burke in the Box"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Chili’s"
+    terminal_id: 24,
+    bussinessName: "Chili’s"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Metro Pizza"
+    terminal_id: 24,
+    bussinessName: "Metro Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Rachel’s Kitchen"
+    terminal_id: 24,
+    bussinessName: "Rachel’s Kitchen"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Sammy’s Woodfired Pizza & Grill"
+    terminal_id: 24,
+    bussinessName: "Sammy’s Woodfired Pizza & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 24,
-    "businessName": "Estrella Jalisco Bar"
+    terminal_id: 24,
+    bussinessName: "Estrella Jalisco Bar"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Auntie Anne's"
+    terminal_id: 25,
+    bussinessName: "Auntie Anne's"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Carvel"
+    terminal_id: 25,
+    bussinessName: "Carvel"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Chick-fil-A"
+    terminal_id: 25,
+    bussinessName: "Chick-fil-A"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Chili's Too"
+    terminal_id: 25,
+    bussinessName: "Chili's Too"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Cinnabon"
+    terminal_id: 25,
+    bussinessName: "Cinnabon"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Dunkin' Donuts"
+    terminal_id: 25,
+    bussinessName: "Dunkin' Donuts"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "McDonald's"
+    terminal_id: 25,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Moe's Southwest Grill"
+    terminal_id: 25,
+    bussinessName: "Moe's Southwest Grill"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Panda Express"
+    terminal_id: 25,
+    bussinessName: "Panda Express"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Quiznos"
+    terminal_id: 25,
+    bussinessName: "Quiznos"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Sbarro"
+    terminal_id: 25,
+    bussinessName: "Sbarro"
     },
     {
     // "id": ,
-    "terminal_id": 25,
-    "businessName": "Starbucks"
+    terminal_id: 25,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "Brioche Dorée"
+    terminal_id: 26,
+    bussinessName: "Brioche Dorée"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "Burger King"
+    terminal_id: 26,
+    bussinessName: "Burger King"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "Cold Stone Creamery"
+    terminal_id: 26,
+    bussinessName: "Cold Stone Creamery"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "Famous Famiglia"
+    terminal_id: 26,
+    bussinessName: "Famous Famiglia"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "Starbucks"
+    terminal_id: 26,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 26,
-    "businessName": "ZaZa Snack Bar"
+    terminal_id: 26,
+    bussinessName: "ZaZa Snack Bar"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "Au Bon Pain"
+    terminal_id: 27,
+    bussinessName: "Au Bon Pain"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "Kafe Kalik"
+    terminal_id: 27,
+    bussinessName: "Kafe Kalik"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "McDonald's"
+    terminal_id: 27,
+    bussinessName: "McDonald's"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "pinkberry"
+    terminal_id: 27,
+    bussinessName: "pinkberry"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "Sbarro"
+    terminal_id: 27,
+    bussinessName: "Sbarro"
     },
     {
     // "id": ,
-    "terminal_id": 27,
-    "businessName": "Starbucks"
+    terminal_id: 27,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "Freshens"
+    terminal_id: 28,
+    bussinessName: "Freshens"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "Manchu Wok"
+    terminal_id: 28,
+    bussinessName: "Manchu Wok"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "Nature's Table"
+    terminal_id: 28,
+    bussinessName: "Nature's Table"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "Qdoba"
+    terminal_id: 28,
+    bussinessName: "Qdoba"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "Wendy's"
+    terminal_id: 28,
+    bussinessName: "Wendy's"
     },
     {
     // "id": ,
-    "terminal_id": 28,
-    "businessName": "ZaZa Cafe"
+    terminal_id: 28,
+    bussinessName: "ZaZa Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 29,
-    "businessName": "Burger King"
+    terminal_id: 29,
+    bussinessName: "Burger King"
     },
     {
     // "id": ,
-    "terminal_id": 29,
-    "businessName": "Carvel"
+    terminal_id: 29,
+    bussinessName: "Carvel"
     },
     {
     // "id": ,
-    "terminal_id": 29,
-    "businessName": "Fresh Attractions"
+    terminal_id: 29,
+    bussinessName: "Fresh Attractions"
     },
     {
     // "id": ,
-    "terminal_id": 29,
-    "businessName": "Nathan's: hot dogs"
+    terminal_id: 29,
+    bussinessName: "Nathan's: hot dogs"
     },
     {
     // "id": ,
-    "terminal_id": 29,
-    "businessName": "Pinkberry"
+    terminal_id: 29,
+    bussinessName: "Pinkberry"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Cafe Versailles"
+    terminal_id: 30,
+    bussinessName: "Cafe Versailles"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Icebox Cafe"
+    terminal_id: 30,
+    bussinessName: "Icebox Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "La Carreta Restaurant"
+    terminal_id: 30,
+    bussinessName: "La Carreta Restaurant"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Ku-Va"
+    terminal_id: 30,
+    bussinessName: "Ku-Va"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Spring Chicken"
+    terminal_id: 30,
+    bussinessName: "Spring Chicken"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Shula’s Bar & Grill"
+    terminal_id: 30,
+    bussinessName: "Shula’s Bar & Grill"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Au Bon Pain"
+    terminal_id: 30,
+    bussinessName: "Au Bon Pain"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "305 Pizza"
+    terminal_id: 30,
+    bussinessName: "305 Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Bacardi Mojito Bar"
+    terminal_id: 30,
+    bussinessName: "Bacardi Mojito Bar"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Beaudevin"
+    terminal_id: 30,
+    bussinessName: "Beaudevin"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Clover Irish Pub"
+    terminal_id: 30,
+    bussinessName: "Clover Irish Pub"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Clubhouse One"
+    terminal_id: 30,
+    bussinessName: "Clubhouse One"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "The Counter"
+    terminal_id: 30,
+    bussinessName: "The Counter"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Corona Beach House"
+    terminal_id: 30,
+    bussinessName: "Corona Beach House"
     },
     {
     // "id": 30,
-    "terminal_id": 30,
-    "businessName": "Dunkin Donuts"
+    terminal_id: 30,
+    bussinessName: "Dunkin Donuts"
     },
     {
     // "id": 30,
-    "terminal_id": 30,
-    "businessName": "Einstein Bagels"
+    terminal_id: 30,
+    bussinessName: "Einstein Bagels"
     },
     {
     // "id": ,
-    "terminal_id": 30,
-    "businessName": "Estefan Kitchen Express"
+    terminal_id: 30,
+    bussinessName: "Estefan Kitchen Express"
     },
     {
     // "id": ,
-    "terminal_id": 31,
-    "businessName": "Viena"
+    terminal_id: 31,
+    bussinessName: "Viena"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Budweiser Brewhouse"
+    terminal_id: 31,
+    bussinessName: "Budweiser Brewhouse"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Burger King"
+    terminal_id: 31,
+    bussinessName: "Burger King"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Pizza Hut Express"
+    terminal_id: 31,
+    bussinessName: "Pizza Hut Express"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Cafe La Caretta"
+    terminal_id: 31,
+    bussinessName: "Cafe La Caretta"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Cafe Versailles"
+    terminal_id: 31,
+    bussinessName: "Cafe Versailles"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Chef Creole"
+    terminal_id: 31,
+    bussinessName: "Chef Creole"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Chili’s Too"
+    terminal_id: 31,
+    bussinessName: "Chili’s Too"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Dunkin Donuts"
+    terminal_id: 31,
+    bussinessName: "Dunkin Donuts"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Guava & Java"
+    terminal_id: 31,
+    bussinessName: "Guava & Java"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Halfmoon Empanadas"
+    terminal_id: 31,
+    bussinessName: "Halfmoon Empanadas"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Subway"
+    terminal_id: 31,
+    bussinessName: "Subway"
     },
     {
     // "id": 31,
-    "terminal_id": 31,
-    "businessName": "Margaritaville"
+    terminal_id: 31,
+    bussinessName: "Margaritaville"
     },
     {
     // "id": ,
-    "terminal_id": 31,
-    "businessName": "Samuel Adams"
+    terminal_id: 31,
+    bussinessName: "Samuel Adams"
     },
     {
     // "id": ,
-    "terminal_id": 31,
-    "businessName": "Stella Bar"
+    terminal_id: 31,
+    bussinessName: "Stella Bar"
     },
     {
     // "id": ,
-    "terminal_id": 31,
-    "businessName": "Sushi Maki"
+    terminal_id: 31,
+    bussinessName: "Sushi Maki"
     },
     {
     // "id": ,
-    "terminal_id": 31,
-    "businessName": "Wynwood Warehouse Bar"
+    terminal_id: 31,
+    bussinessName: "Wynwood Warehouse Bar"
     },
     {
     // "id": ,
-    "terminal_id": 32, 
-    "businessName": "Bud Light Lounge"
+    terminal_id: 32, 
+    bussinessName: "Bud Light Lounge"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Bongos Cuban Cafe"
+    terminal_id: 32, 
+    bussinessName: "Bongos Cuban Cafe"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Corona Beach House"
+    terminal_id: 32, 
+    bussinessName: "Corona Beach House"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Earl of Sandwich"
+    terminal_id: 32, 
+    bussinessName: "Earl of Sandwich"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Famous Famiglia"
+    terminal_id: 32, 
+    bussinessName: "Famous Famiglia"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Gilbert’s Food Bar "
+    terminal_id: 32, 
+    bussinessName: "Gilbert’s Food Bar "
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Heineken Bar"
+    terminal_id: 32, 
+    bussinessName: "Heineken Bar"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "La Pausa"
+    terminal_id: 32, 
+    bussinessName: "La Pausa"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "McDonald’s"
+    terminal_id: 32, 
+    bussinessName: "McDonald’s"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Nathan’s Famous"
+    terminal_id: 32, 
+    bussinessName: "Nathan’s Famous"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Subway"
+    terminal_id: 32, 
+    bussinessName: "Subway"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Starbucks"
+    terminal_id: 32, 
+    bussinessName: "Starbucks"
     },
     {
     // "id": 32, 
-    "terminal_id": 32, 
-    "businessName": "Quizno’s"
+    terminal_id: 32, 
+    bussinessName: "Quizno’s"
     },
     {
     // "id": 32, 
-    "terminal_id": 33, 
-    "businessName": "​​Goldilocks Filipino Cuisine"
+    terminal_id: 33, 
+    bussinessName: "​​Goldilocks Filipino Cuisine"
     },
     {
     // "id": 32, 
-    "terminal_id": 33, 
-    "businessName": "Starbird"
+    terminal_id: 33, 
+    bussinessName: "Starbird"
     },
     {
     // "id": 33,
-    "terminal_id": 33,
-    "businessName": "Bun Mee"
+    terminal_id: 33,
+    bussinessName: "Bun Mee"
     },
     {
     // "id": 33,
-    "terminal_id": 33,
-    "businessName": "Bourbon Pub"
+    terminal_id: 33,
+    bussinessName: "Bourbon Pub"
     },
     {
     // "id": 33,
-    "terminal_id": 33,
-    "businessName": "Ritual Coffee"
+    terminal_id: 33,
+    bussinessName: "Ritual Coffee"
     },
     {
     // "id": 33,
-    "terminal_id": 34,
-    "businessName": "Napa Farms Market"
+    terminal_id: 34,
+    bussinessName: "Napa Farms Market"
     },
     {
     // "id": ,
-    "terminal_id": 34,
-    "businessName": "Farmerbrown"
+    terminal_id: 34,
+    bussinessName: "Farmerbrown"
     },
     {
     // "id": ,
-    "terminal_id": 34,
-    "businessName": "Dolores Park Cafe "
+    terminal_id: 34,
+    bussinessName: "Dolores Park Cafe "
     },
     {
     // "id": ,
-    "terminal_id": 34,
-    "businessName": "Proposition Chicken"
+    terminal_id: 34,
+    bussinessName: "Proposition Chicken"
     },
     {
     // "id": ,
-    "terminal_id": 34,
-    "businessName": "Koi Palace Express"
+    terminal_id: 34,
+    bussinessName: "Koi Palace Express"
     },
     {
     // "id": ,
-    "terminal_id": 34,
-    "businessName": "SF Uncork’d"
+    terminal_id: 34,
+    bussinessName: "SF Uncork’d"
     },
     {
     // "id": ,
-    "terminal_id": 35,
-    "businessName": "Sankaku"
+    terminal_id: 35,
+    bussinessName: "Sankaku"
     },
     {
     // "id": ,
-    "terminal_id": 35,
-    "businessName": "Union Street Gastro Pub "
+    terminal_id: 35,
+    bussinessName: "Union Street Gastro Pub "
     },
     {
     // "id": ,
-    "terminal_id": 35,
-    "businessName": "Max’s E.V.O.O. Cafe "
+    terminal_id: 35,
+    bussinessName: "Max’s E.V.O.O. Cafe "
     },
     {
     // "id": ,
-    "terminal_id": 35,
-    "businessName": "Peet’s Coffee & Tea"
+    terminal_id: 35,
+    bussinessName: "Peet’s Coffee & Tea"
     },
     {
     // "id": ,
-    "terminal_id": 35,
-    "businessName": "Burger King "
+    terminal_id: 35,
+    bussinessName: "Burger King "
     },
     {
     // "id": ,
-    "terminal_id": 36,
-    "businessName": "Blaze Pizza"
+    terminal_id: 36,
+    bussinessName: "Blaze Pizza"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Cadillac Mexican Kitchen & Tequila Ba"
+    terminal_id: 36,
+    bussinessName: "Cadillac Mexican Kitchen & Tequila Ba"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Chick-Fil-A"
+    terminal_id: 36,
+    bussinessName: "Chick-Fil-A"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "El Tiempo Cantina "
+    terminal_id: 36,
+    bussinessName: "El Tiempo Cantina "
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "First Glass Bistro & Bar "
+    terminal_id: 36,
+    bussinessName: "First Glass Bistro & Bar "
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Great American Bagel"
+    terminal_id: 36,
+    bussinessName: "Great American Bagel"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Jack In The Box"
+    terminal_id: 36,
+    bussinessName: "Jack In The Box"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Liquid Provisions"
+    terminal_id: 36,
+    bussinessName: "Liquid Provisions"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Mockingbird Distillery & Smokehouse"
+    terminal_id: 36,
+    bussinessName: "Mockingbird Distillery & Smokehouse"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Panda Express"
+    terminal_id: 36,
+    bussinessName: "Panda Express"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Starbucks"
+    terminal_id: 36,
+    bussinessName: "Starbucks"
     },
     {
     // "id": 36,
-    "terminal_id": 36,
-    "businessName": "Subway"
+    terminal_id: 36,
+    bussinessName: "Subway"
     },
     {
     // "id": ,
-    "terminal_id": 36,
-    "businessName": "Wendy’s"
+    terminal_id: 36,
+    bussinessName: "Wendy’s"
     },
     {
     // "id": ,
-    "terminal_id": 36,
-    "businessName": "Which Wich"
+    terminal_id: 36,
+    bussinessName: "Which Wich"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "American Craft Tavern"
+    terminal_id: 37,
+    bussinessName: "American Craft Tavern"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Bullritos"
+    terminal_id: 37,
+    bussinessName: "Bullritos"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Cafe Adobe"
+    terminal_id: 37,
+    bussinessName: "Cafe Adobe"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Chick-Fil-A "
+    terminal_id: 37,
+    bussinessName: "Chick-Fil-A "
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Freshii"
+    terminal_id: 37,
+    bussinessName: "Freshii"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Hard Rock Cafe"
+    terminal_id: 37,
+    bussinessName: "Hard Rock Cafe"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Jason’s Deli"
+    terminal_id: 37,
+    bussinessName: "Jason’s Deli"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Panda Express "
+    terminal_id: 37,
+    bussinessName: "Panda Express "
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Peet’s Coffee & Tea"
+    terminal_id: 37,
+    bussinessName: "Peet’s Coffee & Tea"
     },
     {
     // "id": 37,
-    "terminal_id": 37,
-    "businessName": "Pizza Hut"
+    terminal_id: 37,
+    bussinessName: "Pizza Hut"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "Ray’s Fish and Shrimp Shack"
+    terminal_id: 37,
+    bussinessName: "Ray’s Fish and Shrimp Shack"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "Smashburger"
+    terminal_id: 37,
+    bussinessName: "Smashburger"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "Starbucks"
+    terminal_id: 37,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "SugarLand Beer Garden"
+    terminal_id: 37,
+    bussinessName: "SugarLand Beer Garden"
     },
     {
     // "id": ,
-    "terminal_id": 37,
-    "businessName": "Whataburger"
+    terminal_id: 37,
+    bussinessName: "Whataburger"
     },
     {
     // "id": ,
-    "terminal_id": 38, 
-    "businessName": "Pala"
+    terminal_id: 38, 
+    bussinessName: "Pala"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Ember"
+    terminal_id: 38, 
+    bussinessName: "Ember"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Olio"
+    terminal_id: 38, 
+    bussinessName: "Olio"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Q Bar"
+    terminal_id: 38, 
+    bussinessName: "Q Bar"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Vida Taqueria"
+    terminal_id: 38, 
+    bussinessName: "Vida Taqueria"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Agave Taqueria"
+    terminal_id: 38, 
+    bussinessName: "Agave Taqueria"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Alchemy Craft Cocktail"
+    terminal_id: 38, 
+    bussinessName: "Alchemy Craft Cocktail"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "El Premio Tex-Mex Bar & Grill"
+    terminal_id: 38, 
+    bussinessName: "El Premio Tex-Mex Bar & Grill"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Forno Magico"
+    terminal_id: 38, 
+    bussinessName: "Forno Magico"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Freshens"
+    terminal_id: 38, 
+    bussinessName: "Freshens"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "H Burger Bar"
+    terminal_id: 38, 
+    bussinessName: "H Burger Bar"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Katz Coffee & Bistro"
+    terminal_id: 38, 
+    bussinessName: "Katz Coffee & Bistro"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Landry’s Seafood "
+    terminal_id: 38, 
+    bussinessName: "Landry’s Seafood "
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Panda Express"
+    terminal_id: 38, 
+    bussinessName: "Panda Express"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Pick Up Stix"
+    terminal_id: 38, 
+    bussinessName: "Pick Up Stix"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Pink’s Pizza"
+    terminal_id: 38, 
+    bussinessName: "Pink’s Pizza"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Poppy’s Bagels / Little Purse"
+    terminal_id: 38, 
+    bussinessName: "Poppy’s Bagels / Little Purse"
     },
     {
     // "id": 38, 
-    "terminal_id": 38, 
-    "businessName": "Potbelly Sandwich Shop"
+    terminal_id: 38, 
+    bussinessName: "Potbelly Sandwich Shop"
     },
     {
     // "id": ,
-    "terminal_id": 38,
-    "businessName": "Steak n’ Shake"
+    terminal_id: 38,
+    bussinessName: "Steak n’ Shake"
     },
     {
     // "id": ,
-    "terminal_id": 38,
-    "businessName": "Starbucks"
+    terminal_id: 38,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 38,
-    "businessName": "Southern Belle "
+    terminal_id: 38,
+    bussinessName: "Southern Belle "
     },
     {
     // "id": ,
-    "terminal_id": 38,
-    "businessName": "Wendy’s"
+    terminal_id: 38,
+    bussinessName: "Wendy’s"
     },
     {
     // "id": ,
-    "terminal_id": 38,
-    "businessName": "Which Wich"
+    terminal_id: 38,
+    bussinessName: "Which Wich"
     },
     {
     // "id": ,
-    "terminal_id": 39,
-    "businessName": "Bayou City Bar"
+    terminal_id: 39,
+    bussinessName: "Bayou City Bar"
     },
     {
     // "id": ,
-    "terminal_id": 39,
-    "businessName": "Byte: Fresh Grab and Go"
+    terminal_id: 39,
+    bussinessName: "Byte: Fresh Grab and Go"
     },
     {
     // "id": ,
-    "terminal_id": 39,
-    "businessName": "Ciao Gourmet Market"
+    terminal_id: 39,
+    bussinessName: "Ciao Gourmet Market"
     },
     {
     // "id": ,
-    "terminal_id": 39,
-    "businessName": "Peet’s Coffee"
+    terminal_id: 39,
+    bussinessName: "Peet’s Coffee"
     },
     {
     // "id": ,
-    "terminal_id": 40,
-    "businessName": "Auntie Anne’s Pretzels"
+    terminal_id: 40,
+    bussinessName: "Auntie Anne’s Pretzels"
     },
     {
     // "id": ,
-    "terminal_id": 40,
-    "businessName": "Cinnabon"
+    terminal_id: 40,
+    bussinessName: "Cinnabon"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Custom Burgers"
+    terminal_id: 40,
+    bussinessName: "Custom Burgers"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Dunkin’ Donuts"
+    terminal_id: 40,
+    bussinessName: "Dunkin’ Donuts"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "El Premio"
+    terminal_id: 40,
+    bussinessName: "El Premio"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Gavi"
+    terminal_id: 40,
+    bussinessName: "Gavi"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Houston Wheelhouse"
+    terminal_id: 40,
+    bussinessName: "Houston Wheelhouse"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Katz Coffee and Bistro"
+    terminal_id: 40,
+    bussinessName: "Katz Coffee and Bistro"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Livefire Burger"
+    terminal_id: 40,
+    bussinessName: "Livefire Burger"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "The Market by Villa "
+    terminal_id: 40,
+    bussinessName: "The Market by Villa "
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Panda Express"
+    terminal_id: 40,
+    bussinessName: "Panda Express"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Schlotzsky’s Deli"
+    terminal_id: 40,
+    bussinessName: "Schlotzsky’s Deli"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Starbucks "
+    terminal_id: 40,
+    bussinessName: "Starbucks "
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Subway"
+    terminal_id: 40,
+    bussinessName: "Subway"
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Tanglewood Grill "
+    terminal_id: 40,
+    bussinessName: "Tanglewood Grill "
     },
     {
     // "id": 40,
-    "terminal_id": 40,
-    "businessName": "Wendy’s"
+    terminal_id: 40,
+    bussinessName: "Wendy’s"
     },
     {
     // "id": ,
-    "terminal_id": 40,
-    "businessName": "World Nectar"
+    terminal_id: 40,
+    bussinessName: "World Nectar"
     },
     {
     // "id": ,
-    "terminal_id": 40,
-    "businessName": "Yume"
+    terminal_id: 40,
+    bussinessName: "Yume"
     },
     {
     // "id": ,
-    "terminal_id": 41, 
-    "businessName": "Dunkin’"
+    terminal_id: 41, 
+    bussinessName: "Dunkin’"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Alta Strada"
+    terminal_id: 41, 
+    bussinessName: "Alta Strada"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Boston Bruin Bar"
+    terminal_id: 41, 
+    bussinessName: "Boston Bruin Bar"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Currito"
+    terminal_id: 41, 
+    bussinessName: "Currito"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Friendly’s"
+    terminal_id: 41, 
+    bussinessName: "Friendly’s"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Harpoon Tap Room"
+    terminal_id: 41, 
+    bussinessName: "Harpoon Tap Room"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Legal Sea Foods"
+    terminal_id: 41, 
+    bussinessName: "Legal Sea Foods"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Sbarro"
+    terminal_id: 41, 
+    bussinessName: "Sbarro"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "Starbucks"
+    terminal_id: 41, 
+    bussinessName: "Starbucks"
     },
     {
     // "id": 41, 
-    "terminal_id": 41, 
-    "businessName": "B.Good"
+    terminal_id: 41, 
+    bussinessName: "B.Good"
     },
     {
     // "id": 41, 
-    "terminal_id": 42, 
-    "businessName": "Berkshire Farms Market"
+    terminal_id: 42, 
+    bussinessName: "Berkshire Farms Market"
     },
     {
     // "id": 41, 
-    "terminal_id": 42, 
-    "businessName": "Dunkin’"
+    terminal_id: 42, 
+    bussinessName: "Dunkin’"
     },
     {
     // "id": 41, 
-    "terminal_id": 42, 
-    "businessName": "Kelly’s Roast Beef"
+    terminal_id: 42, 
+    bussinessName: "Kelly’s Roast Beef"
     },
     {
     // "id": 41, 
-    "terminal_id": 42, 
-    "businessName": "Legal Sea Foods"
+    terminal_id: 42, 
+    bussinessName: "Legal Sea Foods"
     },
     {
     // "id": ,
-    "terminal_id": 42,
-    "businessName": "Lucca"
+    terminal_id: 42,
+    bussinessName: "Lucca"
     },
     {
     // "id": ,
-    "terminal_id": 42,
-    "businessName": "N.e. MKT"
+    terminal_id: 42,
+    bussinessName: "N.e. MKT"
     },
     {
     // "id": ,
-    "terminal_id": 42,
-    "businessName": "Not Your Average Joe’s"
+    terminal_id: 42,
+    bussinessName: "Not Your Average Joe’s"
     },
     {
     // "id": ,
-    "terminal_id": 43,
-    "businessName": "Dunkin’"
+    terminal_id: 43,
+    bussinessName: "Dunkin’"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Boston Beer Works"
+    terminal_id: 43,
+    bussinessName: "Boston Beer Works"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Boston Public Market"
+    terminal_id: 43,
+    bussinessName: "Boston Public Market"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Camden food co."
+    terminal_id: 43,
+    bussinessName: "Camden food co."
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Davio’s Northern Italian Steakhouse"
+    terminal_id: 43,
+    bussinessName: "Davio’s Northern Italian Steakhouse"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Green Express"
+    terminal_id: 43,
+    bussinessName: "Green Express"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Mija"
+    terminal_id: 43,
+    bussinessName: "Mija"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Potbelly Sandwich Shop"
+    terminal_id: 43,
+    bussinessName: "Potbelly Sandwich Shop"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Starbucks"
+    terminal_id: 43,
+    bussinessName: "Starbucks"
     },
     {
     // "id": 43,
-    "terminal_id": 43,
-    "businessName": "Wahlburgers"
+    terminal_id: 43,
+    bussinessName: "Wahlburgers"
     },
     {
     // "id": 43,
-    "terminal_id": 44,
-    "businessName": "Dunkin’"
+    terminal_id: 44,
+    bussinessName: "Dunkin’"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Boston Harbor Distillery"
+    terminal_id: 44,
+    bussinessName: "Boston Harbor Distillery"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Dine Boston Cafe"
+    terminal_id: 44,
+    bussinessName: "Dine Boston Cafe"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Harbor Market"
+    terminal_id: 44,
+    bussinessName: "Harbor Market"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Legal Sea Foods"
+    terminal_id: 44,
+    bussinessName: "Legal Sea Foods"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Sal’s Pizza"
+    terminal_id: 44,
+    bussinessName: "Sal’s Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 44,
-    "businessName": "Monica’s Mercato"
+    terminal_id: 44,
+    bussinessName: "Monica’s Mercato"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Starbucks"
+    terminal_id: 45,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Shula Burger"
+    terminal_id: 45,
+    bussinessName: "Shula Burger"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Rocco’s tacos"
+    terminal_id: 45,
+    bussinessName: "Rocco’s tacos"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Offerdahl’s Off-The-Grill"
+    terminal_id: 45,
+    bussinessName: "Offerdahl’s Off-The-Grill"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Air Margaritaville"
+    terminal_id: 45,
+    bussinessName: "Air Margaritaville"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "Auntie Anne’s"
+    terminal_id: 45,
+    bussinessName: "Auntie Anne’s"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "La Familia Tacos & Tequila"
+    terminal_id: 45,
+    bussinessName: "La Familia Tacos & Tequila"
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": "BurgerFi"
+    terminal_id: 45,
+    bussinessName: "BurgerFi"
     },
     {
     // "id": ,
-    "terminal_id": 46,
-    "businessName": "Flash Fire Pizza"
+    terminal_id: 46,
+    bussinessName: "Flash Fire Pizza"
     },
     {
     // "id": ,
-    "terminal_id": 46,
-    "businessName": "Torn Basil"
+    terminal_id: 46,
+    bussinessName: "Torn Basil"
     },
     {
     // "id": ,
-    "terminal_id": 46,
-    "businessName": "Shake Shack"
+    terminal_id: 46,
+    bussinessName: "Shake Shack"
     },
     {
         // "id": ,
-    "terminal_id": 46,
-    "businessName": "Umaizushi"
+    terminal_id: 46,
+    bussinessName: "Umaizushi"
     },
     {
     // "id": ,
-    "terminal_id": 46,
-    "businessName": "Starbucks"
+    terminal_id: 46,
+    bussinessName: "Starbucks"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Golden Bear Grill"
+    terminal_id: 47,
+    bussinessName: "Golden Bear Grill"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Harvest and Grounds"
+    terminal_id: 47,
+    bussinessName: "Harvest and Grounds"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": ""
+    terminal_id: 47,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Corona Extra Beach Bar"
+    terminal_id: 47,
+    bussinessName: "Corona Extra Beach Bar"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Steak’n Shake"
+    terminal_id: 47,
+    bussinessName: "Steak’n Shake"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": ""
+    terminal_id: 47,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": ""
+    terminal_id: 47,
+    bussinessName: ""
     },
     {
         // "id": ,
-    "terminal_id": 47,
-    "businessName": "Pei Wei Asian Diner"
+    terminal_id: 47,
+    bussinessName: "Pei Wei Asian Diner"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Aroma Market"
+    terminal_id: 47,
+    bussinessName: "Aroma Market"
     },
     {
     // "id": ,
-    "terminal_id": 47,
-    "businessName": "Chef Allen’s 2 Go"
+    terminal_id: 47,
+    bussinessName: "Chef Allen’s 2 Go"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "DeSano Pizza Bakery"
+    terminal_id: 48,
+    bussinessName: "DeSano Pizza Bakery"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "Casa Noble"
+    terminal_id: 48,
+    bussinessName: "Casa Noble"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "Café Siena"
+    terminal_id: 48,
+    bussinessName: "Café Siena"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "Casanava"
+    terminal_id: 48,
+    bussinessName: "Casanava"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "Kafe Kalik"
+    terminal_id: 48,
+    bussinessName: "Kafe Kalik"
     },
     {
         // "id": ,
-    "terminal_id": 48,
-    "businessName": "Cross Grain Brewhouse"
+    terminal_id: 48,
+    bussinessName: "Cross Grain Brewhouse"
     },
     {
     // "id": ,
-    "terminal_id": 48,
-    "businessName": "Harvest & Grounds"
+    terminal_id: 48,
+    bussinessName: "Harvest & Grounds"
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": ""
+    terminal_id: 45,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
         // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": ""
+    terminal_id: 45,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
         // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": 45,
-    "businessName": ""
+    terminal_id: 45,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
         // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     },
     {
     // "id": ,
-    "terminal_id": ,
-    "businessName": ""
+    terminal_id: ,
+    bussinessName: ""
     }
     ]
