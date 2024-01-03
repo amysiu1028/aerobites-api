@@ -80,9 +80,16 @@ exports.seed = async function (knex) {
 // This is a good practice for database seeding, especially when dealing with relational data, as it helps maintain data consistency and integrity. If any part of the seeding process fails, you won't end up with a partially seeded database.
 
 
+//memory heap overload errors:
+// The memory heap overload errors you encountered might be related to the fact that your database seeding involves a large number of database operations (such as inserting, updating, or deleting records) typically results in changes being committed to the database. Without transactions, these changes are committed immediately after each operation. -> can lead to inefficient memory usage, especially when dealing with a large dataset.
+
+// Transactions provide a way to group multiple database operations into a single unit of work. When you use a transaction, changes are not committed to the database until the entire transaction is completed. This ensures that either all operations within the transaction are successful, or none of them are applied. It helps maintain the atomicity, consistency, isolation, and durability (ACID properties) of the database.
+
+
+
+//my own notes for understanding promise.all more
 // Promise.all is a method in JavaScript that takes an array of promises and returns a single promise. 
 //each promise in the airportPromises array should resolve with an object that contains airport data, terminal data, and business data for each airport. Each promise represents the completion of the createAirport function for a specific airport.
-
 
 //Promise.all is an asynchronous operation. It returns a new promise that is fulfilled with an array of the results when all of the input promises passed to it have been fulfilled, or it is rejected with the reason of the first promise that is rejected.
 
