@@ -19,7 +19,10 @@ const cors = require('cors')
 const knex = require('./knex')
 
 //sets express application/middleman port to 8080, this is where it'll listen for incoming requests on port 8080
-app.set('port',8080)
+// app.set('port',8080)
+const PORT = process.env.PORT || 8080;
+
+
 
 
 //app.use adds a middleware fx to express.js application
@@ -61,7 +64,7 @@ app.get('/businesses', async(request, response) => {
 //so what you would have in your Knex.js migration file (e.g., 20220101000000_create_airport_data_table.js)
 
 //The app.listen function in Express.js is used to bind and listen for connections on the specified host and port.
-app.listen(8080, () => {
+app.listen(PORT, () => {
     console.log('server has started on port 8080')
 })
 
