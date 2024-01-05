@@ -86,43 +86,43 @@ const cors = require('cors');
 const knex = require('./knex');
 
 const PORT = process.env.CUSTOM_PORT || 8050;
-console.log(process.env.CUSTOM_PORT, "custom")
-console.log(process.env.PORT, "Port")
-console.log(process.env, "env")
 app.use(cors());
 
 app.get('/', async (request, response) => {
-  try {
-    const airportData = await knex.select().from('airports');
-    response.status(200).json(airportData);
-  } catch (error) {
-    console.error(error);
-    response.status(500).json({ error: 'Internal Server Error' });
-  }
+    try {
+        const airportData = await knex.select().from('airports');
+        response.status(200).json(airportData);
+    } catch (error) {
+        console.error(error);
+        response.status(500).json({ error: 'Internal Server Error' });
+    }
 });
 
 app.get('/terminals', async (request, response) => {
-  try {
-    const terminalData = await knex.select().from('terminals');
-    response.status(200).json(terminalData);
-  } catch (error) {
-    console.error(error);
-    response.status(500).json({ error: 'Internal Server Error' });
-  }
+    try {
+        const terminalData = await knex.select().from('terminals');
+        response.status(200).json(terminalData);
+    } catch (error) {
+        console.error(error);
+        response.status(500).json({ error: 'Internal Server Error' });
+    }
 });
 
 app.get('/businesses', async (request, response) => {
-  try {
-    const businessData = await knex.select().from('businesses');
-    response.status(200).json(businessData);
-  } catch (error) {
-    console.error(error);
-    response.status(500).json({ error: 'Internal Server Error' });
-  }
+    try {
+        const businessData = await knex.select().from('businesses');
+        response.status(200).json(businessData);
+    } catch (error) {
+        console.error(error);
+        response.status(500).json({ error: 'Internal Server Error' });
+    }
 });
 
 app.listen(PORT, () => {
-  console.log(`Server has started on port ${PORT}`);
+    console.log(process.env.CUSTOM_PORT, "custom")
+    console.log(process.env.PORT, "Port")
+    console.log(process.env, "env")
+    console.log(`Server has started on port ${PORT}`);
 });
 
 // Uncomment the following section if you plan to handle SIGTERM for graceful shutdown
