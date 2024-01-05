@@ -2,53 +2,70 @@ const businesses = require('../data/businesses');
 const terminals = require('../data/terminals');
 const airports = require('../data/airport');
 
-//
-//trx: trx object is passed down to other functions (like createTerminal) that are part of the same transaction, ensuring that all operations within those functions are grouped within the transaction scope.
-//database transactions, the use of trx (transaction object) is mainly about ensuring atomicity, consistency, isolation, and durability (ACID properties). Transactions are commonly used when you have multiple database operations that should be treated as a single unit of work. The goal is to either commit all changes to the database or rollback (undo) all changes if an error occurs during any part of the process.
-
-
 //when you're outside the seed function, such as in your CRUD operations or other parts of your application, you may need to explicitly use knex.transaction and pass trx
 
 const createAirport = async (knex, airport) => {
   return knex.transaction(async (trx) => {
     try {
-      const relationAirportId = await trx('airports').insert({
-        name: airport.name,
-        isFavorite: airport.isFavorite,
-      }, 'id');
-
-      const terminalArrayPromise = terminals.map(terminal => createTerminal(trx, relationAirportId, terminal));
+      const airportTerminalLinkId = await trx('airports').insert({
+        //id that autoincrements is [0]
+        name: airport.name, //[1]
+        isFavorite: airport.isFavorite, //[2]
+      }, 'id') // Get the inserted airport record with its ID
+      
+      const terminalArrayPromise = terminals
+      .filter(terminal => {
+        console.log("terminal.airport_id",terminal.airport_id)
+        console.log("airportTerminalLinkId[0].id ",airportTerminalLinkId[0].id)
+        return terminal.airport_id === airportTerminalLinkId[0].id})
+      .map(terminal => createTerminal(trx, terminal));
       await Promise.all(terminalArrayPromise);
       await trx.commit(); // Commit the transaction if everything is successful
+      console.log(`Successfully inserted airport: ${airport.name}`);
     } catch (error) {
       await trx.rollback(error); // Rollback the transaction if an error occurs
     }
   });
 };
 
-const createTerminal = async (knex, relationAirportId, terminal) => {
+const createTerminal = async (knex, terminal) => {
   return knex.transaction(async (trx) => {
     try {
-      const terminalId = await trx('terminals').insert({
-        airport_id: relationAirportId[0].id,
+      const terminalBusinessLinkId = await trx('terminals').insert({
+        airport_id: terminal.airport_id,
         terminalName: terminal.terminalName,
-      }, 'id');
+      },'id');
 
-      //By passing trx to the createBusinesses function, you're telling it to perform the database operations within the context of the ongoing transaction. Any database changes made within this function (in this case, adding terminal data for each terminal) will be part of the same transaction object/unit passed down from createAiports
-      const businessesArrayPromise = businesses.map(business => createBusinesses(trx, {
-        terminal_id: terminalId[0].id,
-        businessName: business.businessName,
-      }));
+      const businessesArrayPromise = businesses
+        .filter(business => {
+          // console.log("business.terminal_id",business.terminal_id)
+          // console.log("terminalBusinessLinkId[0]",terminalBusinessLinkId[0].id)
+          return business.terminal_id === terminalBusinessLinkId[0].id})
+        .map(business => createBusinesses(trx, business));
       await Promise.all(businessesArrayPromise);
       await trx.commit(); // Commit the transaction if everything is successful
+      console.log(`Successfully inserted terminals: ${terminal.businessName}`);
     } catch (error) {
       await trx.rollback(error); // Rollback the transaction if an error occurs
+      console.error(`Error inserting terminal: ${terminal.terminalName}`, error);
     }
   });
 };
 
-const createBusinesses = async (knex, businesses) => {
-  await knex('businesses').insert(businesses);
+const createBusinesses = async (knex, business) => {
+  return knex.transaction(async (trx) => {
+    try {
+      await trx('businesses').insert({
+        terminal_id: business.terminal_id,
+        businessName: business.businessName,
+      });
+      await trx.commit(); // Commit the transaction if everything is successful
+      console.log(`Successfully inserted business: ${business.businessName}`);
+    } catch (error) {
+      await trx.rollback(error); // Rollback the transaction if an error occurs
+      console.error(`Error inserting business: ${business.businessName}`, error);
+    }
+  });
 };
 
 //exports.seed = is treated as a transaction by knex, seed fx already operates w/in a transaction - When you're working with the seed function, Knex automatically provides a transaction object (trx) for you, and it is implicitly available within the seed. You don't need to explicitly pass it as an arg
@@ -87,7 +104,7 @@ exports.seed = async function (knex) {
 
 
 
-//my own notes for understanding promise.all more
+//my own notes:
 // Promise.all is a method in JavaScript that takes an array of promises and returns a single promise. 
 //each promise in the airportPromises array should resolve with an object that contains airport data, terminal data, and business data for each airport. Each promise represents the completion of the createAirport function for a specific airport.
 
