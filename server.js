@@ -85,8 +85,10 @@ const app = express();
 const cors = require('cors');
 const knex = require('./knex');
 
-const PORT = process.env.PORT || 8080;
-
+const PORT = process.env.CUSTOM_PORT || 8080;
+console.log(process.env.CUSTOM_PORT, "custom")
+console.log(process.env.PORT, "Port")
+console.log(process.env, "env")
 app.use(cors());
 
 app.get('/', async (request, response) => {
