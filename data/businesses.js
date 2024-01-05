@@ -1,4 +1,3 @@
-// cmd + shift + L - selects all and then you can change and delete it!
 let businesses = [
     {
         terminal_id: 1, 
