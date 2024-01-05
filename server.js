@@ -3,13 +3,14 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const knex = require('./knex');
+const db = knex(config.production);
 
 const PORT = process.env.CUSTOM_PORT || 8050;
 app.use(cors());
 
 app.get('/', async (request, response) => {
     try {
-        const airportData = await knex.select().from('airports');
+        const airportData = await db.select().from('airports');
         response.status(200).json(airportData);
     } catch (error) {
         console.error(error);
@@ -19,7 +20,7 @@ app.get('/', async (request, response) => {
 
 app.get('/terminals', async (request, response) => {
     try {
-        const terminalData = await knex.select().from('terminals');
+        const terminalData = await db.select().from('terminals');
         response.status(200).json(terminalData);
     } catch (error) {
         console.error(error);
@@ -29,7 +30,7 @@ app.get('/terminals', async (request, response) => {
 
 app.get('/businesses', async (request, response) => {
     try {
-        const businessData = await knex.select().from('businesses');
+        const businessData = await db.select().from('businesses');
         response.status(200).json(businessData);
     } catch (error) {
         console.error(error);

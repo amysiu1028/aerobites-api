@@ -2,11 +2,11 @@
   "name": "aerobites-be",
   "version": "1.0.0",
   "description": "",
-  "main": "serveraero.js",
+  "main": "server.js",
   "engines": {"node": "18.x"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node serveraero.js",
+    "start": "node server.js",
     "dev/start": "nodemon server.js"
   },
   "repository": {

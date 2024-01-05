@@ -1,1 +1,1 @@
-web: node serveraero.js
+web: node server.js
