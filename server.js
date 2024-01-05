@@ -4,8 +4,8 @@ const app = express();
 const cors = require('cors');
 const knex = require('./knex');
 const config = require('./knexfile.js');
-const db = knex(config.production);
-
+const db = knex(config.development);
+console.log(config)
 const PORT = process.env.PORT || 8080;
 app.use(cors());
 
