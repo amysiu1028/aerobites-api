@@ -12,7 +12,8 @@ module.exports = {
   development: {
     //uses PostgreSQL client 
     client: 'pg',
-    connection: 'postgres://localhost/airport',
+    // connection: 'postgres://localhost/airport',
+    connection: process.env.DATABASE_URL,
     migrations: {
       directory: './migrations'
     },
