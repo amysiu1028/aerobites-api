@@ -6,7 +6,7 @@ const knex = require('./knex');
 const config = require('./knexfile.js');
 const db = knex(config.production);
 
-const PORT = process.env.CUSTOM_PORT || 8050;
+const PORT = process.env.PORT || 8080;
 app.use(cors());
 
 app.get('/', async (request, response) => {
@@ -40,10 +40,7 @@ app.get('/businesses', async (request, response) => {
 });
 
 app.listen(PORT, () => {
-    console.log(process.env.CUSTOM_PORT, "custom")
-    console.log(process.env.PORT, "Port")
-    console.log(process.env, "env")
-    console.log(`Server has started hello world on port: ${PORT}`);
+    console.log(`Server has started on port: ${PORT}`);
 });
 
 // Uncomment the following section if you plan to handle SIGTERM for graceful shutdown
