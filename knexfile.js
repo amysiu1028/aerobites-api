@@ -13,7 +13,7 @@ module.exports = {
     //uses PostgreSQL client 
     client: 'pg',
     // connection: 'postgres://localhost/airport',
-    connection: 'postgres://zbsuzvgmcfznqc:2abeb62768d08d35bf47f56eb6d6bcdc19490966ed98f098bde6d720bee0b3b4@ec2-3-217-146-37.compute-1.amazonaws.com:5432/d1fup8eqep3j9s?ssl=true',
+    connection:  process.env.DATABASE_URL,
     migrations: {
       directory: './migrations'
     },
@@ -45,7 +45,7 @@ module.exports = {
       //connection object includes the connection string from the DATABASE_URL environment variable
 
       //will be an encrypted variable that we can eventually find through heroku or vercel when we make our deployed link
-      connectionString: 'postgres://zbsuzvgmcfznqc:2abeb62768d08d35bf47f56eb6d6bcdc19490966ed98f098bde6d720bee0b3b4@ec2-3-217-146-37.compute-1.amazonaws.com:5432/d1fup8eqep3j9s',
+      connectionString: process.env.DATABASE_URL,
       // it sets up SSL with the option to reject unauthorized connections. 
 
       //SSL (Secure Sockets Layer):
