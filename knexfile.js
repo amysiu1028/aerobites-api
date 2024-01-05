@@ -13,7 +13,7 @@ module.exports = {
     //uses PostgreSQL client 
     client: 'pg',
     // connection: 'postgres://localhost/airport',
-    connection: 'postgres://zbsuzvgmcfznqc:2abeb62768d08d35bf47f56eb6d6bcdc19490966ed98f098bde6d720bee0b3b4@ec2-3-217-146-37.compute-1.amazonaws.com:5432/d1fup8eqep3j9s',
+    connection: process.env.DATABASE_URL,
     migrations: {
       directory: './migrations'
     },
