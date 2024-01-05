@@ -122,7 +122,7 @@ app.listen(PORT, () => {
     console.log(process.env.CUSTOM_PORT, "custom")
     console.log(process.env.PORT, "Port")
     console.log(process.env, "env")
-    console.log(`Server has started on port ${PORT}`);
+    console.log(`Server has started hello world on port: ${PORT}`);
 });
 
 // Uncomment the following section if you plan to handle SIGTERM for graceful shutdown
